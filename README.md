@@ -11,6 +11,9 @@ git clone https://github.com/lucanest/Phyloformer.git && cd Phyloformer
 conda create -n phylo python=3.9 -c defaults && conda activate phylo
 pip install -r requirements.txt
 
+### Generate the distance matrix (Change the code)
+python infer_alns.py -o data/testdata/pf_matrices models/pf.ckpt data/testdata/msas
+
 ### Generate tree from generated matrix
 ./bin/bin_macos/fastme -i "data/pf66_matrices/PF00066.phy" -o "data/pf66_matrices/PF00066.nwk" --nni --spr
 
