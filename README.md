@@ -39,6 +39,7 @@ Install prerequisite packages
 ```bash
 conda create -n msaphylo python=3.10
 conda activate msaphylo
+pip install torch torchvision torchaudio
 pip install fair-esm --quiet
 pip install transformers --quiet
 pip install pysam --quiet
