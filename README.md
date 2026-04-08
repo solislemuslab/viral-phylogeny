@@ -31,11 +31,13 @@ pip install Bio
 pip install ete3
 
 ### Run the model
-python MsaPhylo.py
-        --i "./data/Pfam/PF00066.fasta" \
-        --name 'PF00066' \
-        --o "./PF00066_output_tree" \
-        --l 2
+```bash
+python MsaPhylo.py \
+  --i "./data/Pfam/PF00066.fasta" \
+  --name PF00066 \
+  --o "./PF00066_output_tree" \
+  --l 2
+```
 
 
 ## CMAPLE
