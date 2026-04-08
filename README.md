@@ -6,36 +6,36 @@ Install mamba if you want to use it instead of conda
 conda install -n base -c conda-forge mamba
 ```
 
-### Clone the phyloformer repo
+Clone the phyloformer repo
 ```bash
 git clone https://github.com/lucanest/Phyloformer.git && cd Phyloformer
 ```
 
-### Create the virtual env and install the phyloformer package inside
+Create the virtual env and install the phyloformer package inside
 ```bash
 conda create -n phylo python=3.9 -c defaults && conda activate phylo
 pip install -r requirements.txt
 ```
 
-### Generate the distance matrix (Change the code)
+Generate the distance matrix (Change the code)
 ```bash
 python infer_alns.py -o data/testdata/pf_matrices models/pf.ckpt data/testdata/msas
 ```
 
-### Generate tree from generated matrix
+Generate tree from generated matrix
 ```bash
 ./bin/bin_macos/fastme -i "data/pf66_matrices/PF00066.phy" -o "data/pf66_matrices/PF00066.nwk" --nni --spr
 ```
 
 
 ## MSA Transformer
-### Install MsaPhylo
+Install MsaPhylo
 ```bash
 git clone https://github.com/Cassie818/MsaPhylo.git
 cd MsaPhylo
 ```
 
-### Install prerequisite packages
+Install prerequisite packages
 ```bash
 pip install fair-esm --quiet
 pip install transformers --quiet
@@ -44,7 +44,7 @@ pip install Bio
 pip install ete3
 ```
 
-### Run the model
+Run the model
 ```bash
 python MsaPhylo.py \
   --i "./data/Pfam/PF00066.fasta" \
