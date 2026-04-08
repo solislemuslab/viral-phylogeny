@@ -36,10 +36,14 @@ git clone https://github.com/Cassie818/MsaPhylo.git
 cd MsaPhylo
 ```
 
-Install prerequisite packages
+Create an environment
 ```bash
 conda create -n msaphylo python=3.10
 conda activate msaphylo
+```
+
+Install prerequisite packages
+```bash
 pip install torch torchvision torchaudio
 pip install fair-esm --quiet
 pip install transformers --quiet
@@ -64,6 +68,9 @@ Build the tree
 mkdir -p Attentions/Pfam
 python run_attention_pf00066.py
 ```
+The generated trees of using attention tree are stored under the directory "Trees".
+
+MSA Transformer is completed!
 
 
 ## CMAPLE
