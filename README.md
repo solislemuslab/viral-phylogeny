@@ -58,7 +58,12 @@ python MsaPhylo.py \
 ```
 
 ### Attention tree
-
+Create a new python file "run_attention_pf00066.py" for attention tree
+Build the tree
+```bash
+mkdir -p Attentions/Pfam
+python run_attention_pf00066.py
+```
 
 
 ## CMAPLE
