@@ -29,6 +29,7 @@ Generate tree from generated matrix
 
 
 ## MSA Transformer
+### Embedding tree
 Install MsaPhylo
 ```bash
 git clone https://github.com/Cassie818/MsaPhylo.git
@@ -55,6 +56,9 @@ python MsaPhylo.py \
   --o "./PF00066_output_tree" \
   --l 2
 ```
+
+### Attention tree
+
 
 
 ## CMAPLE
