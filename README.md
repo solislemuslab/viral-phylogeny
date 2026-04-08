@@ -1,7 +1,7 @@
 # viral-phylogeny
 
 ## Phyloformer
-### Install mamba if you want to use it instead of conda
+Install mamba if you want to use it instead of conda
 ```bash
 conda install -n base -c conda-forge mamba
 ```
