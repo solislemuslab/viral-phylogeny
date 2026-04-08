@@ -37,6 +37,7 @@ cd MsaPhylo
 
 Install prerequisite packages
 ```bash
+conda create -n msaphylo python=3.10
 pip install fair-esm --quiet
 pip install transformers --quiet
 pip install pysam --quiet
