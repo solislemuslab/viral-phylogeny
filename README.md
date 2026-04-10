@@ -5,9 +5,12 @@ Setup
 ```bash
 # Clone the phyloformer repo
 git clone https://github.com/lucanest/Phyloformer.git
-cd Phyloformer
+
+# Copy PF00066.fasta to the folder "Phyloformer"
+cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer/data/
 
 # Create the virtual env and install the phyloformer package inside
+cd Phyloformer
 conda create -n phylo python=3.9 -c defaults
 conda activate phylo
 ```
