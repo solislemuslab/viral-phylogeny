@@ -36,7 +36,7 @@ Generate tree using the distance matrix above
   -o data/testdata/pf_matrices/PF00066.nwk \
   --nni --spr
 
-# Run on Linux virtual machine to reduce triangle inequality violation
+# Run on Linux virtual machine to reduce triangle inequality violation (Even worse: Explained variance is lower)
 ./bin/bin_linux/fastme \
   -q \
   -i data/testdata/pf_matrices/PF00066.phy \
