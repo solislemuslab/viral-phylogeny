@@ -99,6 +99,12 @@ MSA Transformer is completed!
 
 
 ## CMAPLE
+```bash
+# Clone the CMAPLE
+git clone https://github.com/iqtree/cmaple.git
 
+# Copy PF00066.fasta to the folder "CMAPLE"
+cp MsaPhylo/data/Pfam/PF00066.fasta data/testdata/msas/
+```
 
 ## PhyloGFN
