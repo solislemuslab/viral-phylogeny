@@ -30,6 +30,13 @@ python infer_alns.py \
 
 Generate tree using the distance matrix above
 ```bash
+# Run on Linux virtual machine
+./bin/bin_linux/fastme \
+  -i data/testdata/pf_matrices/PF00066.phy \
+  -o data/testdata/pf_matrices/PF00066.nwk \
+  --nni --spr
+
+# Run on MacOS
 ./bin/bin_macos/fastme \
   -i data/testdata/pf_matrices/PF00066.phy \
   -o data/testdata/pf_matrices/PF00066.nwk \
