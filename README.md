@@ -20,9 +20,9 @@ Change the pandas version from 3.5.1 to pandas==2.0.3 in the requirements.txt
 pip install -r requirements.txt
 ```
 
-Generate the distance matrix (Change the code)
+Generate the distance matrix
 ```bash
-python infer_alns.py -o data/testdata/pf_matrices models/pf.ckpt data/testdata/msas
+python infer_alns.py -o data/ models/pf.ckpt data/PF00066.fasta
 ```
 
 Generate tree using the distance matrix above
