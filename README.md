@@ -7,7 +7,7 @@ Setup
 git clone https://github.com/lucanest/Phyloformer.git
 
 # Copy PF00066.fasta to the folder "Phyloformer"
-cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer/data/
+cp MsaPhylo/data/Pfam/PF00066.fasta data/testdata/msas/
 
 # Create the virtual env and install the phyloformer package inside
 cd Phyloformer
@@ -22,7 +22,10 @@ pip install -r requirements.txt
 
 Generate the distance matrix
 ```bash
-python infer_alns.py -o data/ models/pf.ckpt data/PF00066.fasta
+python infer_alns.py \
+  -o data \
+  models/pf.ckpt \
+  data/PF00066.fasta
 ```
 
 Generate tree using the distance matrix above
