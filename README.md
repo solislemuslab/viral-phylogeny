@@ -50,6 +50,8 @@ Generate tree using the distance matrix above
   --nni --spr
 ```
 
+Phyloformer is completed!
+
 
 ## MSA Transformer
 ### Embedding tree
