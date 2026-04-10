@@ -3,14 +3,13 @@
 ## Phyloformer
 Setup
 ```bash
-# Install mamba if you want to use it instead of conda
-conda install -n base -c conda-forge mamba
-
 # Clone the phyloformer repo
-git clone https://github.com/lucanest/Phyloformer.git && cd Phyloformer
+git clone https://github.com/lucanest/Phyloformer.git
+cd Phyloformer
 
 # Create the virtual env and install the phyloformer package inside
-conda create -n phylo python=3.9 -c defaults && conda activate phylo
+conda create -n phylo python=3.9 -c defaults
+conda activate phylo
 pip install -r requirements.txt
 ```
 
