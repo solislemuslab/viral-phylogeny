@@ -23,9 +23,9 @@ pip install -r requirements.txt
 Generate the distance matrix
 ```bash
 python infer_alns.py \
-  -o data \
+  -o data/testdata/pf_matrices \
   models/pf.ckpt \
-  data/PF00066.fasta
+  data/testdata/msas
 ```
 
 Generate tree using the distance matrix above
