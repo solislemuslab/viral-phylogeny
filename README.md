@@ -10,6 +10,10 @@ cd Phyloformer
 # Create the virtual env and install the phyloformer package inside
 conda create -n phylo python=3.9 -c defaults
 conda activate phylo
+```
+
+Change the pandas version from 3.5.1 to pandas==2.0.3 in the requirements.txt 
+```bash
 pip install -r requirements.txt
 ```
 
