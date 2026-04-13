@@ -107,4 +107,7 @@ git clone https://github.com/iqtree/cmaple.git
 cp MsaPhylo/data/Pfam/PF00066.fasta data/testdata/msas/
 ```
 
+Download cmaple-1.1.0-Linux-intel.tar.gz from the url https://github.com/iqtree/cmaple/releases
+
+
 ## PhyloGFN
