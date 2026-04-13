@@ -135,6 +135,9 @@ git clone https://github.com/DingShizhe/NeuralNJ.git
 
 # Copy PF00066.fasta to the folder "NeuralNJ"
 cp MsaPhylo/data/Pfam/PF00066.fasta NeuralNJ/
+
+# Setup the environment
+conda env create -f environment.yaml
 ```
 
 
