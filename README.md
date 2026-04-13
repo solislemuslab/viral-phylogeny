@@ -99,6 +99,7 @@ MSA Transformer is completed!
 
 
 ## CMAPLE
+Setup
 ```bash
 # Clone the CMAPLE
 git clone https://github.com/iqtree/cmaple.git
@@ -126,4 +127,13 @@ The results of running the commands above:
 CMAPLE is completed!
 
 
+## NeuralNJ
+Setup
+```bash
+
+```
+
+
 ## PhyloGFN
+
+
