@@ -130,7 +130,11 @@ CMAPLE is completed!
 ## NeuralNJ
 Setup
 ```bash
+# Clone the NeuralNJ
+git clone https://github.com/DingShizhe/NeuralNJ.git
 
+# Copy PF00066.fasta to the folder "NeuralNJ"
+cp MsaPhylo/data/Pfam/PF00066.fasta NeuralNJ/
 ```
 
 
