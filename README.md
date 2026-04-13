@@ -123,5 +123,7 @@ cd CMAPLE/
 The results of running the commands above:
 ![EC7892E4-3EC1-43C7-BBBA-BF69120E7601](https://github.com/user-attachments/assets/8f1d776e-3907-46ee-ac1b-869b8031b5c2)
 
+CMAPLE is completed!
+
 
 ## PhyloGFN
