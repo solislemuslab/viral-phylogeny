@@ -109,8 +109,14 @@ cp MsaPhylo/data/Pfam/PF00066.fasta CMAPLE/
 
 Download cmaple-1.1.0-Linux-intel.tar.gz from the url https://github.com/iqtree/cmaple/releases
 ```bash
-Move the folder to the same level as PF00066.fasta
+# Move the folder to the same level as PF00066.fasta
 mv ~/cmaple-1.1.0-Linux-intel.tar.gz ~/DeepLearningClaudia/CMAPLE/
+cd DeepLearningClaudia/CMAPLE/
+
+# Extract the folder
+tar -xvzf cmaple-1.1.0-Linux-intel.tar.gz
+
+
 ```
 
 ## PhyloGFN
