@@ -104,7 +104,7 @@ MSA Transformer is completed!
 git clone https://github.com/iqtree/cmaple.git
 
 # Copy PF00066.fasta to the folder "CMAPLE"
-cp MsaPhylo/data/Pfam/PF00066.fasta data/testdata/msas/
+cp MsaPhylo/data/Pfam/PF00066.fasta CMAPLE/
 ```
 
 Download cmaple-1.1.0-Linux-intel.tar.gz from the url https://github.com/iqtree/cmaple/releases
