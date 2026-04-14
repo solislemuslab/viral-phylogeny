@@ -135,11 +135,13 @@ git clone https://github.com/DingShizhe/NeuralNJ.git
 
 # Copy PF00066.fasta to the folder "NeuralNJ"
 cp MsaPhylo/data/Pfam/PF00066.fasta NeuralNJ/
+```
 
+Comment out - phyloformer==0.0.1a4 in environment.yaml
+```bash
 # Setup the environment
 conda env create -f environment.yaml
 ```
-Comment out - phyloformer==0.0.1a4 in environment.yaml
 
 
 ## PhyloGFN
