@@ -141,6 +141,7 @@ Comment out - phyloformer==0.0.1a4 in environment.yaml
 ```bash
 # Setup the environment
 conda env create -f environment.yaml
+conda activate NeuralNJ
 ```
 
 
