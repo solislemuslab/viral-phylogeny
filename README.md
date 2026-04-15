@@ -1,4 +1,4 @@
-# viral-phylogeny
+# Viral-phylogeny
 
 ## Phyloformer
 Setup
