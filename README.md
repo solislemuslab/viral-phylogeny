@@ -176,5 +176,21 @@ python finetune_rl_search.py \
 
 
 ## PhyloGFN
+Setup
+```bash
+# Clone the PhyloGFN
+git clone https://github.com/zmy1116/phylogfn.git
+
+# Copy PF00066.fasta to the folder "PhyloGFN"
+cp MsaPhylo/data/Pfam/PF00066.fasta PhyloGFN/
+
+# Setup the environment
+conda create -n phylogfn python=3.10
+conda activate phylogfn
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install anaconda::docopt
+conda install etetoolkit::ete3
+conda install matplotlib tqdm dill fvcore iopath docopt
+```
 
 
