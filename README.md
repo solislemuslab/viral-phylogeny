@@ -148,6 +148,10 @@ pip install biopython
 pip install pybind11
 cd RAxMLpy
 python setup.py build
+python setup.py install --user
+
+export LD_LIBRARY_PATH="$(pwd)/build_plllib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="$(pwd)/build_raxmllib:$LD_LIBRARY_PATH"
 
 # Create a new python file "convert_to_phylip.py" to convert fasta file to phy file
 python convert_to_phylip.py
