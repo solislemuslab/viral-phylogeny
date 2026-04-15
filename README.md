@@ -1,4 +1,11 @@
 # viral-phylogeny
+```bash
+conda create -n dl_models python=3.10 -y
+conda activate dl_models
+
+pip install numpy scipy pandas biopython matplotlib ete3 tqdm pyyaml jupyter
+pip install torch torchvision torchaudio
+```
 
 ## Phyloformer
 Setup
