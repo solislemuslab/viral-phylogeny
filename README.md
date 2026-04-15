@@ -156,7 +156,9 @@ instance_path: "./examples/PF00066/"
 
 ```bash
 # Run the PF00066.fasta
-
+python finetune_rl_search.py \
+  --config ./config/finetune_reinforce_search_example.yaml \
+  --infer_opt Argmax
 ```
 
 
