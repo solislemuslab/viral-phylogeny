@@ -144,6 +144,10 @@ conda env create -f environment.yaml
 conda activate NeuralNJ
 pip install biopython
 
+# Install raxmlpy separately
+cd RAxMLpy
+
+
 # Create a new python file "convert_to_phylip.py" to convert fasta file to phy file
 python convert_to_phylip.py
 mv PF00066.phy examples/
