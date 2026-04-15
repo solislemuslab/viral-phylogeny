@@ -142,6 +142,10 @@ Comment out - phyloformer==0.0.1a4 in environment.yaml
 # Setup the environment
 conda env create -f environment.yaml
 conda activate NeuralNJ
+pip install biopython
+
+# Create a new python file "convert_to_phylip.py" to convert fasta file to phy file
+
 ```
 
 
