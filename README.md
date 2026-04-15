@@ -116,7 +116,9 @@ cd DeepLearningClaudia/CMAPLE/
 
 # Extract the folder
 tar -xvzf cmaple-1.1.0-Linux-intel.tar.gz
+```
 
+```bash
 # Run the PF00066.fasta
 cd CMAPLE/
 ./cmaple-1.1.0-Linux-intel/bin/cmaple -aln PF00066.fasta
