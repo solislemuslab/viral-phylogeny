@@ -193,4 +193,10 @@ conda install etetoolkit::ete3
 conda install matplotlib tqdm dill fvcore iopath docopt
 ```
 
+## COVID data
+```bash
+conda create -n covid_data python=3.10 -y
+```
+
+
 
