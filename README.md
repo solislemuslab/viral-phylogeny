@@ -149,7 +149,11 @@ python convert_to_phylip.py
 mv PF00066.phy examples/
 ```
 
-Modify config file: Replace the previous instance_path with "instance_path: "./examples/PF00066/""
+Modify config file: Replace the previous instance_path with 
+```bash
+instance_path: "./examples/PF00066/"
+```
+
 ```bash
 # Run the PF00066.fasta
 
