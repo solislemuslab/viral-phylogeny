@@ -1,4 +1,5 @@
 # viral-phylogeny
+Setup the environment for the whole project
 ```bash
 conda create -n dl_models python=3.10 -y
 conda activate dl_models
