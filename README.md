@@ -242,6 +242,7 @@ mafft --auto covid_300_stratified_with_outgroup.fasta > covid_300_aligned.fasta
 cd COVID_data_fasta
 conda activate covid_data
 conda install -c bioconda iqtree
+iqtree -s covid_300_aligned.fasta -m GTR+G -nt AUTO
 ```
 
 
