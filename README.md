@@ -226,5 +226,8 @@ Asia              27
 Africa             2
 South America      2
 
-
+Add outgroups to the covid_300_stratified.fasta
+```bash
+cat covid_300_stratified.fasta outgroup/*.fasta > covid_300_stratified_with_outgroup.fasta
+```
 
