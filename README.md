@@ -234,6 +234,7 @@ cat covid_300_stratified.fasta outgroup/*.fasta > covid_300_stratified_with_outg
 Aligned the 300 sequences
 ```bash
 conda install -c bioconda mafft
+mafft --auto covid_300_stratified_with_outgroup.fasta > covid_300_aligned.fasta
 ```
 
 
