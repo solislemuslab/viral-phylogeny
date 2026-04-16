@@ -231,3 +231,11 @@ Add outgroups to the covid_300_stratified.fasta
 cat covid_300_stratified.fasta outgroup/*.fasta > covid_300_stratified_with_outgroup.fasta
 ```
 
+Aligned the 300 sequences
+```bash
+conda install -c bioconda mafft
+```
+
+
+
+
