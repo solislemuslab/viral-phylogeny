@@ -250,8 +250,17 @@ mkdir IQTREE_results
 mv COVID_data_fasta/covid_300_aligned.fasta.* IQTREE_results/ # covid_300_aligned.fasta.treefile is the final tree
 ```
 
+### CMAPLE
+```bash
+# Run the CMAPLE
+conda deactivate
+cd CMAPLE/
+./cmaple-1.1.0-Linux-intel/bin/cmaple -aln ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta
 
-
+# Move the results of CMAPLE to a separate folder
+mkdir CMAPLE_results
+mv COVID_data_fasta/covid_300_aligned.fasta.* CMAPLE_results/ # covid_300_aligned.fasta.treefile is the final tree
+```
 
 
 
