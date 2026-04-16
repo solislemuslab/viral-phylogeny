@@ -267,8 +267,14 @@ mv COVID_data_fasta/covid_300_aligned.fasta.* CMAPLE/CMAPLE_results/ # covid_300
 ```bash
 # Run the phyloformer
 conda deactivate
+conda activate phylo
 cd Phyloformer/
-
+mkdir data/testdata/covid_msas
+cp ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta data/testdata/covid_msas/
+python infer_alns.py \
+  -o data/covid_pf_matrices \
+  models/pf.ckpt \
+  data/testdata/covid_msas
 
 # Move the results of phyloformer to a separate folder
 mkdir Phyloformer_results
