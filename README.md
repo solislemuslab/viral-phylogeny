@@ -239,10 +239,15 @@ mafft --auto covid_300_stratified_with_outgroup.fasta > covid_300_aligned.fasta
 
 ### IQ-Tree
 ```bash
+# Run the IQ-Tree
 cd COVID_data_fasta
 conda activate covid_data
 conda install -c bioconda iqtree
 iqtree -s covid_300_aligned.fasta -m GTR+G -nt AUTO
+
+# Move the results of IQ-Tree to a separate folder
+mkdir IQTREE_results
+mv COVID_data_fasta/covid_300_aligned.fasta.* IQTREE_results/ # covid_300_aligned.fasta.treefile is the final tree
 ```
 
 
