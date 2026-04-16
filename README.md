@@ -237,6 +237,15 @@ conda install -c bioconda mafft
 mafft --auto covid_300_stratified_with_outgroup.fasta > covid_300_aligned.fasta
 ```
 
+### IQ-Tree
+```bash
+cd COVID_data_fasta
+conda activate covid_data
+conda install -c bioconda iqtree
+```
+
+
+
 
 
 
