@@ -210,8 +210,13 @@ cat gisaid_hcov-19_to_2020_03_30.fasta \
 Create remove_duplicates.py to remove duplicated in the new-created fasta file
 ```bash
 python remove_duplicates.py
-
 ```
+
+Create select_300.py to select 300 sequences to run for different models
+```bash
+python select_300.py
+```
+
 
 
 
