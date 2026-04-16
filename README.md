@@ -212,11 +212,19 @@ Create remove_duplicates.py to remove duplicated in the new-created fasta file
 python remove_duplicates.py
 ```
 
-Create select_300.py to select 300 sequences to run for different models
+Create select_covid_300_stratified.py to select 300 sequences to run for different models
 ```bash
-python select_300.py
+python select_covid_300_stratified.py
 ```
-
+Below is the distribution of 300 sequences
+Selected counts by continent:
+continent
+Europe           146
+North America     93
+Oceania           30
+Asia              27
+Africa             2
+South America      2
 
 
 
