@@ -195,8 +195,10 @@ conda install matplotlib tqdm dill fvcore iopath docopt
 
 ## COVID data
 ```bash
+# Setup the environment
 conda create -n covid_data python=3.10 -y
 conda activate covid_data
+pip install biopython pandas openpyxl tqdm
 
 # Preprocess the COVID dataset
 cd COVID_data_fasta/
@@ -206,6 +208,10 @@ cat gisaid_hcov-19_to_2020_03_30.fasta \
 ```
 
 Create remove_duplicates.py to remove duplicated in the new-created fasta file
+```bash
+python remove_duplicates.py
+
+```
 
 
 
