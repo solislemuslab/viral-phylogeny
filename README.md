@@ -263,5 +263,22 @@ cd ..
 mv COVID_data_fasta/covid_300_aligned.fasta.* CMAPLE/CMAPLE_results/ # covid_300_aligned.fasta.treefile is the final tree
 ```
 
+### Phyloformer
+```bash
+# Run the phyloformer
+conda deactivate
+cd Phyloformer/
+
+
+# Move the results of phyloformer to a separate folder
+mkdir Phyloformer_results
+cd ..
+mv COVID_data_fasta/covid_300_aligned.fasta.* Phyloformer/Phyloformer_results/ # covid_300_aligned.fasta.treefile is the final tree
+```
+
+
+
+
+
 
 
