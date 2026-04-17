@@ -269,15 +269,28 @@ mv COVID_data_fasta/covid_300_aligned.fasta.* CMAPLE/CMAPLE_results/ # covid_300
 conda deactivate
 conda activate NeuralNJ
 cd NeuralNJ/
-mkdir examples/covid_selected_300
 ```
 
 Change the name of file in convert_to_phylip.py to convert fasta file to phy file
 ```bash
 cp ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta .
 python convert_to_phylip.py
+mv covid_300_aligned.phy examples/
+```
 
+Modify config file: Replace the previous instance_path with
+```bash
+instance_path: "./examples/covid_300_aligned/"
+```
 
+```bash
+# Run the PF00066.fasta
+python finetune_rl_search.py \
+  --config ./config/finetune_reinforce_search_example.yaml \
+  --infer_opt Argmax
+```
+
+```bash
 # Move the results of NeuralNJ to a separate folder
 mkdir NeuralNJ_results
 cd ..
