@@ -274,8 +274,8 @@ mkdir examples/covid_selected_300
 
 Change the name of file in convert_to_phylip.py to convert fasta file to phy file
 ```bash
+cp ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta NeuralNJ
 python convert_to_phylip.py
-cp ~/DeepLearningClaudia/COVID_data/covid_selected_300.phy examples/covid_selected_300/
 
 
 # Move the results of NeuralNJ to a separate folder
