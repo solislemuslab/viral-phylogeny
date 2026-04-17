@@ -263,6 +263,27 @@ cd ..
 mv COVID_data_fasta/covid_300_aligned.fasta.* CMAPLE/CMAPLE_results/ # covid_300_aligned.fasta.treefile is the final tree
 ```
 
+### NeuralNJ
+```bash
+# Run the NeuralNJ
+conda deactivate
+conda activate NeuralNJ
+cd NeuralNJ/
+mkdir examples/covid_selected_300
+```
+
+Change the name of file in convert_to_phylip.py to convert fasta file to phy file
+```bash
+python convert_to_phylip.py
+cp ~/DeepLearningClaudia/COVID_data/covid_selected_300.phy examples/covid_selected_300/
+
+
+# Move the results of NeuralNJ to a separate folder
+mkdir NeuralNJ_results
+cd ..
+mv COVID_data_fasta/covid_300_aligned.fasta.* NeuralNJ/NeuralNJ_results/ # covid_300_aligned.fasta.treefile is the final tree
+```
+
 ### Phyloformer
 ```bash
 # Run the phyloformer
