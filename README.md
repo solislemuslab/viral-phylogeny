@@ -274,7 +274,7 @@ mkdir examples/covid_selected_300
 
 Change the name of file in convert_to_phylip.py to convert fasta file to phy file
 ```bash
-cp ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta NeuralNJ
+cp ~/DeepLearningClaudia/COVID_data_fasta/covid_300_aligned.fasta .
 python convert_to_phylip.py
 
 
