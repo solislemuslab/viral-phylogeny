@@ -145,12 +145,19 @@ Comment out - phyloformer==0.0.1a4 in environment.yaml
 conda env create -f environment.yaml
 conda activate NeuralNJ
 pip install biopython
+```
 
+Add the code below to include_dirs=[...] in setup.py
+```bash
+cd RAxMLpy
+"raxml-ng/libs/coraxlib/src",
+```
+
+```bash
 # Install raxmlpy separately
 pip install pybind11
-cd RAxMLpy
 python setup.py build
-python setup.py install --user
+python setup.py install
 
 export LD_LIBRARY_PATH="$(pwd)/build_plllib:$LD_LIBRARY_PATH"
 export LD_LIBRARY_PATH="$(pwd)/build_raxmllib:$LD_LIBRARY_PATH"
