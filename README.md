@@ -330,6 +330,18 @@ conda create -n visualization python=3.9 -c defaults
 conda install -c conda-forge ete3 biopython matplotlib
 ```
 
+Change the path in python file compare.py to compare IQ-Tree and CMAPLE
+```bash
+python compare.py
+```
+
+Below are the results:
+RF distance: 436
+Maximum RF distance: 602
+Normalized RF distance: 0.7242524916943521
+Number of common leaves: 304
+Common taxa: 304
+
 
 
 
