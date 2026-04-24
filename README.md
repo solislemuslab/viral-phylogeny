@@ -323,7 +323,10 @@ cd ..
 mv COVID_data_fasta/covid_300_aligned.fasta.* Phyloformer/Phyloformer_results/ # covid_300_aligned.fasta.treefile is the final tree
 ```
 
-
+## Visualization
+```bash
+conda create -n visualization python=3.9 -c defaults
+```
 
 
 
