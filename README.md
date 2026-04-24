@@ -324,8 +324,10 @@ mv COVID_data_fasta/covid_300_aligned.fasta.* Phyloformer/Phyloformer_results/ #
 ```
 
 ## Visualization
+Setup the environment
 ```bash
 conda create -n visualization python=3.9 -c defaults
+conda install -c conda-forge ete3 biopython matplotlib
 ```
 
 
