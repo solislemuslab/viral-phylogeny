@@ -210,11 +210,10 @@ git clone --recursive git@gitlab.in2p3.fr:deelogeny/wp1/phyloformer-2.git
 cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/
 
 # Setup the environment with conda
-conda create -n phylogfn python=3.10
-conda activate phylogfn
-conda create -n my_pf2_env python=3
+conda create -n phylo2 python=3.10
+conda activate phylo2
+cd /home/jiayig/DeepLearningClaudia/Phyloformer2
 conda install --yes --file requirements.txt
-conda activate my_pf2_env
 python path/to/pf2/script.py
 
 # Setup the environment with uv 
