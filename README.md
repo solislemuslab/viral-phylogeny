@@ -215,15 +215,12 @@ conda activate phylogfn
 conda create -n my_pf2_env python=3
 conda install --yes --file requirements.txt
 conda activate my_pf2_env
-
 python path/to/pf2/script.py
 
 # Setup the environment with uv 
 cd path/to/pf2/repo
-
 uv init
 uv add -r requirements.txt
-
 uv run path/to/pf2/script.py
 ```
 
