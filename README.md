@@ -204,11 +204,29 @@ conda install matplotlib tqdm dill fvcore iopath docopt
 Setup
 ```bash
 # Clone the Phyloformer2
-git clone https://github.com/zmy1116/phylogfn.git](https://gitlab.in2p3.fr/deelogeny/wp1/phyloformer-2.git
+git clone https://gitlab.in2p3.fr/deelogeny/wp1/phyloformer-2.git
 
 # Copy PF00066.fasta to the folder "Phyloformer2/"
 cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/
+
+# Setup the environment with conda
+conda create -n phylogfn python=3.10
+conda activate phylogfn
+conda create -n my_pf2_env python=3
+conda install --yes --file requirements.txt
+conda activate my_pf2_env
+
+python path/to/pf2/script.py
+
+# Setup the environment with uv 
+cd path/to/pf2/repo
+
+uv init
+uv add -r requirements.txt
+
+uv run path/to/pf2/script.py
 ```
+
 
 
 ## COVID data
