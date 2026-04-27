@@ -204,7 +204,7 @@ conda install matplotlib tqdm dill fvcore iopath docopt
 Setup
 ```bash
 # Clone the Phyloformer2
-git clone https://gitlab.in2p3.fr/deelogeny/wp1/phyloformer-2.git
+git clone --recursive git@gitlab.in2p3.fr:deelogeny/wp1/phyloformer-2.git
 
 # Copy PF00066.fasta to the folder "Phyloformer2/"
 cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/
