@@ -206,9 +206,10 @@ Setup
 # Clone the Phyloformer2
 git clone https://github.com/zmy1116/phylogfn.git](https://gitlab.in2p3.fr/deelogeny/wp1/phyloformer-2.git
 
-# Copy PF00066.fasta to the folder "PhyloGFN"
+# Copy PF00066.fasta to the folder "Phyloformer2/"
 cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/
 ```
+
 
 ## COVID data
 ```bash
