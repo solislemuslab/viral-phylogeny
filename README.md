@@ -34,6 +34,7 @@ Generate tree using the distance matrix above
   -i data/testdata/pf_matrices/PF00066.phy \
   -o data/testdata/pf_matrices/PF00066.nwk \
   --nni --spr
+## this generated a warning about violation to triangle inequality
 
 # Run on Linux virtual machine to reduce triangle inequality violation (Even worse: Explained variance is lower)
 ./bin/bin_linux/fastme \
@@ -41,6 +42,7 @@ Generate tree using the distance matrix above
   -i data/testdata/pf_matrices/PF00066.phy \
   -o data/testdata/pf_matrices/PF00066_q.nwk \
   --nni --spr
+## same warning!
 
 # Run on MacOS
 ./bin/bin_macos/fastme \
