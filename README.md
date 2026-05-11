@@ -19,8 +19,7 @@ Change the pandas version from 3.5.1 to pandas==2.0.3 in the requirements.txt
 ```bash
 pip install -r requirements.txt
 ```
-
-Generate the distance matrix
+The file `PF00066.fasta` is copied into the `data/testdata/msas`, and then generate the distance matrix
 ```bash
 python infer_alns.py \
   -o data/testdata/pf_matrices \
