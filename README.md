@@ -88,7 +88,9 @@ python MsaPhylo.py \
 ```
 
 ### Attention tree
-Create a new python file "run_attention_pf00066.py" for attention tree
+Create a new python file "run_attention_pf00066.py" for attention tree. Name of output file is inside this python script.
+This script is in the `scripts` folder.
+
 Build the tree
 ```bash
 mkdir -p Attentions/Pfam
