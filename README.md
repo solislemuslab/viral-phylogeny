@@ -229,7 +229,23 @@ uv run path/to/pf2/script.py
 
 
 
-## COVID data
+# COVID data
+
+In GISAID website, you can upload the `msaa314_Supplementary_Data.xls` file that we get from the paper [Supp Mat](https://academic.oup.com/mbe/article/38/5/1777/6030946#304310196) and you download two fasta files (because you cannot download more than 10,000 sequences at once). However, we did not follow this approach.
+
+Jiayang followed the information in the paper on how data was collected:
+```
+We downloaded the raw data from gisaid.org on May 5, 2020. It contained 16,453 full-genome (⁠>29,000bp) raw sequences with high coverage. High-coverage sequences are defined by GISAID as sequences containing less than 1% Ns (undetermined characters), less than 0.05% unique amino acid mutations, and no insertions/deletions unless these have been verified by the submitter.
+```
+
+There are two fasta files:
+- `gisaid_hcov-19_after_2020_03_30.fasta`
+- `gisaid_hcov-19_to_2020_03_30.fasta`
+
+Four outgroups are included after (see folder `outgroup` in the google drive).
+
+**Note:** Joyce extracted 300 sequences for testing, but we want to expand to all. And Jiayang thinks we should download the data better.
+
 ```bash
 # Setup the environment
 conda create -n covid_data python=3.10 -y
