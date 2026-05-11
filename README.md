@@ -269,14 +269,17 @@ Create select_covid_300_stratified.py to select 300 sequences to run for differe
 python select_covid_300_stratified.py
 ```
 Below is the distribution of 300 sequences
+
 Selected counts by continent:
+
 continent
-Europe           146
-North America     93
-Oceania           30
-Asia              27
-Africa             2
-South America      2
+
+- Europe           146
+- North America     93
+- Oceania           30
+- Asia              27
+- Africa             2
+- South America      2
 
 Add outgroups to the covid_300_stratified.fasta
 ```bash
