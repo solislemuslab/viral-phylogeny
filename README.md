@@ -120,7 +120,7 @@ cd DeepLearningClaudia/CMAPLE/
 # Extract the folder
 tar -xvzf cmaple-1.1.0-Linux-intel.tar.gz
 ```
-Note this requires compilation.
+Note this requires compilation. Note that there is a compilation step for DNA and another one for AA.
 
 ```bash
 # Run the PF00066.fasta
