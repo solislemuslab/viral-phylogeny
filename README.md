@@ -134,6 +134,7 @@ CMAPLE is completed!
 
 
 ## NeuralNJ
+### Linux
 Setup
 ```bash
 # Clone the NeuralNJ
@@ -183,6 +184,19 @@ instance_path: "./examples/PF00066/"
 python finetune_rl_search.py \
   --config ./config/finetune_reinforce_search_example.yaml \
   --infer_opt Argmax
+```
+
+### Mac
+Setup
+```bash
+conda create -n neuralnj python=3.9
+conda activate neuralnj
+
+conda install -c conda-forge numpy scipy pandas scikit-learn matplotlib biopython pyyaml tqdm
+conda install pytorch torchvision torchaudio -c pytorch
+
+conda install pip=23.3.1 setuptools wheel
+
 ```
 
 
