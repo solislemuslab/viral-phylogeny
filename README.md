@@ -194,9 +194,10 @@ conda activate neuralnj
 
 conda install -c conda-forge numpy scipy pandas scikit-learn matplotlib biopython pyyaml tqdm
 conda install pytorch torchvision torchaudio -c pytorch
-
 conda install pip=23.3.1 setuptools wheel
 
+xcode-select --install
+brew install cmake autoconf automake libtool
 ```
 
 
