@@ -201,6 +201,7 @@ Install raxmlpy separately
 ```bash
 xcode-select --install
 brew install cmake autoconf automake libtool
+export PATH="/opt/homebrew/opt/libtool/libexec/gnubin:$PATH"
 ```
 
 
