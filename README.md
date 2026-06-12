@@ -427,6 +427,11 @@ conda activate phylobench_ob45
 pip install biopython pandas openpyxl tqdm
 ```
 
+Create a python file called preprocess_ob45.py
+```bash
+# Run the python file
+python preprocess_ob45.py
+```
 
 
 
