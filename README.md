@@ -242,7 +242,7 @@ conda install --yes --file requirements.txt
 python path/to/pf2/script.py
 
 # Setup the environment with uv 
-cd path/to/pf2/repo
+cd /home/jiayig/DeepLearningClaudia/Phyloformer2
 uv init
 uv add -r requirements.txt
 uv run path/to/pf2/script.py
@@ -416,9 +416,8 @@ Common taxa: 304
 # PhyloBench data
 
 ```bash
-# Setup the environment
-mkdir -p ~/DeepLearningClaudia/PhyloBench_OB45
-cd ~/DeepLearningClaudia/PhyloBench_OB45
+# Upload the dataset "OB45.tar.gz" to the virtual machine
+scp ./DeepLearningClaudia/OB45.tar.gz jiayig@best-linux.cs.wisc.edu:/home/jiayig/DeepLearningClaudia/
 
 ```
 
