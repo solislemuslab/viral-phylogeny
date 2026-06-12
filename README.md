@@ -234,7 +234,7 @@ git clone --recursive git@gitlab.in2p3.fr:deelogeny/wp1/phyloformer-2.git
 mkdir ./data/PF00066/
 cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/data/PF00066/
 
-# Setup the environment with conda
+# Setup the environment with conda (not working when installing requirements.txt)
 conda create -n phylo2 python=3.10
 conda activate phylo2
 cd /home/jiayig/DeepLearningClaudia/Phyloformer2
@@ -411,6 +411,16 @@ Normalized RF distance: 0.7242524916943521
 Number of common leaves: 304
 Common taxa: 304
 
+
+
+# PhyloBench data
+
+```bash
+# Setup the environment
+mkdir -p ~/DeepLearningClaudia/PhyloBench_OB45
+cd ~/DeepLearningClaudia/PhyloBench_OB45
+
+```
 
 
 
