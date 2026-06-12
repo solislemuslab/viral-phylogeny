@@ -231,7 +231,8 @@ Setup
 git clone --recursive git@gitlab.in2p3.fr:deelogeny/wp1/phyloformer-2.git
 
 # Copy PF00066.fasta to the folder "Phyloformer2/"
-cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/
+mkdir ./data/PF00066/
+cp MsaPhylo/data/Pfam/PF00066.fasta Phyloformer2/data/PF00066/
 
 # Setup the environment with conda
 conda create -n phylo2 python=3.10
