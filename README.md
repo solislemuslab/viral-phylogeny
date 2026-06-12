@@ -418,6 +418,8 @@ Common taxa: 304
 ```bash
 # Upload the dataset "OB45.tar.gz" to the virtual machine
 scp ./DeepLearningClaudia/OB45.tar.gz jiayig@best-linux.cs.wisc.edu:/home/jiayig/DeepLearningClaudia/
+mkdir -p OB45
+tar -xvzf OB45.tar.gz -C OB45
 
 ```
 
