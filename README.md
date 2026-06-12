@@ -434,5 +434,12 @@ python preprocess_ob45.py
 ```
 
 
+## Phyloformer
+```bash
+
+conda activate phylo
+cd ~/DeepLearningClaudia/Phyloformer
+```
+
 
 
