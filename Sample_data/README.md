@@ -1,4 +1,4 @@
-# Viral-phylogeny
+# Sample Data PF00066.fasta
 
 ## Phyloformer
 Setup
