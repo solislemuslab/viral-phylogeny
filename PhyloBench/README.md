@@ -20,12 +20,20 @@ python preprocess_ob45.py
 
 
 ## Phyloformer
+Setup the environment
 ```bash
-
 conda activate phylo
 cd ~/DeepLearningClaudia/Phyloformer
+
+cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_concat_msas/
 ```
 
-
+Generate the distance matrix
+```bash
+python infer_alns.py \
+  -o data/testdata/ob45_concat_matrices \
+  models/pf.ckpt \
+  data/testdata/ob45_concat_msas
+```
 
 
