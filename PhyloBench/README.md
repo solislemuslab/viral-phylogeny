@@ -29,12 +29,26 @@ mkdir data/testdata/ob45_msas/
 cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_msas/
 ```
 
-Generate the distance matrix
+Generate the distance matrix (Error: memory problem)
 ```bash
 python infer_alns.py \
   -o data/testdata/ob45_concat_matrices \
   models/pf.ckpt \
   data/testdata/ob45_msas
+```
+
+First try only one fasta file
+```bash
+mkdir data/testdata/ob45_one_msa
+mkdir data/testdata/ob45_one_matrix
+mkdir data/testdata/ob45_one_tree
+cp /home/jiayig/DeepLearningClaudia/OB45_cleaned/OB_PF01479_1.fasta data/testdata/ob45_one_msa/
+
+# Generate the distance matrix 
+python infer_alns.py \
+  -o data/testdata/ob45_one_matrix \
+  models/pf.ckpt \
+  data/testdata/ob45_one_msa
 ```
 
 
