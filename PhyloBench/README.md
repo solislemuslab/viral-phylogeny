@@ -34,7 +34,7 @@ Generate the distance matrix
 python infer_alns.py \
   -o data/testdata/ob45_concat_matrices \
   models/pf.ckpt \
-  data/testdata/ob45_concat_msas
+  data/testdata/ob45_msas
 ```
 
 
