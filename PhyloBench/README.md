@@ -25,7 +25,8 @@ Setup the environment
 conda activate phylo
 cd ~/DeepLearningClaudia/Phyloformer
 
-cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_concat_msas/
+mkdir data/testdata/ob45_msas/
+cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_msas/
 ```
 
 Generate the distance matrix
