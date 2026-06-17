@@ -49,6 +49,12 @@ python infer_alns.py \
   -o data/testdata/ob45_one_matrix \
   models/pf.ckpt \
   data/testdata/ob45_one_msa
+
+# Generate tree using the distance matrix above
+./bin/bin_linux/fastme \
+  -i data/testdata/ob45_one_matrix/OB_PF01479_1.phy \
+  -o data/testdata/ob45_one_tree/OB_PF01479_1.nwk \
+  --nni --spr
 ```
 
 
