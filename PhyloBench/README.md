@@ -81,4 +81,9 @@ python infer_alns.py \
   data/testdata/ob45_msas
 ```
 
+Generate tree using the distance matrix above
+```bash
+
+```
+
 
