@@ -101,7 +101,27 @@ Setup the environment
 ```bash
 conda activate msaphylo
 cd ~/DeepLearningClaudia/MsaPhylo
+
+mkdir data/OB45
+mkdir OB45_embedding_trees
+
+cp ~/DeepLearningClaudia/OB45/msas_clean/*.fasta data/OB45/
 ```
+
+Generate the trees
+```bash
+for f in data/OB45/*.fasta; do
+    name=$(basename "$f" .fasta)
+    echo "Running embedding tree for $name"
+
+    python MsaPhylo.py \
+      --i "$f" \
+      --name "$name" \
+      --o "./OB45_embedding_trees/${name}_output_tree" \
+      --l 2
+done
+```
+
 
 
 
