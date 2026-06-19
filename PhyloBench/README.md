@@ -83,7 +83,15 @@ python infer_alns.py \
 
 Generate tree using the distance matrix above
 ```bash
+for phy in data/testdata/ob45_matrices/*.phy; do
+    base=$(basename "$phy" .phy)
+    echo "Running FastME for $base"
 
+    ./bin/bin_linux/fastme \
+      -i "$phy" \
+      -o "data/testdata/ob45_trees/${base}.nwk" \
+      --nni --spr
+done
 ```
 
 
