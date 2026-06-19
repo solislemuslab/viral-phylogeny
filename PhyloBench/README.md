@@ -122,6 +122,10 @@ for f in data/OB45/*.fasta; do
 done
 ```
 
-
+### Attention tree
+Create a new python file "run_ob45_attention_trees.py"
+```bash
+python run_ob45_attention_trees.py
+```
 
 
