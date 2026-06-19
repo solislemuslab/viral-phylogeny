@@ -125,6 +125,7 @@ done
 ### Attention tree
 Create a new python file "run_ob45_attention_trees.py"
 ```bash
+cp data/OB45/*.fasta data/Pfam/
 python run_ob45_attention_trees.py
 ```
 
