@@ -95,3 +95,13 @@ done
 ```
 
 
+## MSA Transformer
+### Embedding tree
+Setup the environment
+```bash
+conda activate msaphylo
+cd ~/DeepLearningClaudia/MsaPhylo
+```
+
+
+
