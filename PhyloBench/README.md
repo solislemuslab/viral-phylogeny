@@ -105,7 +105,7 @@ cd ~/DeepLearningClaudia/MsaPhylo
 mkdir data/OB45
 mkdir OB45_embedding_trees
 
-cp ~/DeepLearningClaudia/OB45/msas_clean/*.fasta data/OB45/
+cp ~/DeepLearningClaudia/OB45_cleaned/*.fasta data/OB45/
 ```
 
 Generate the trees
