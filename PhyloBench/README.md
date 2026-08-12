@@ -94,6 +94,24 @@ for phy in data/testdata/ob45_matrices/*.phy; do
 done
 ```
 
+### Change from CS department virtual machine to discovery building virtual machine
+Setup the environment
+```bash
+conda activate phylo
+cd /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer
+
+mkdir data/testdata/ob45_msas/
+cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_msas/
+```
+
+Generate the distance matrix
+```bash
+python infer_alns.py \
+  -o data/testdata/ob45_concat_matrices \
+  models/pf.ckpt \
+  data/testdata/ob45_msas
+```
+
 
 ## MSA Transformer
 ### Embedding tree
