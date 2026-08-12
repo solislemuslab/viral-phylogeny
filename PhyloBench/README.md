@@ -112,6 +112,15 @@ python infer_alns.py \
   data/testdata/ob45_msas
 ```
 
+Generate tree using the distance matrix above
+```bash
+# Run on Linux virtual machine
+./bin/bin_linux/fastme \
+  -i data/testdata/ob45_concat_matrices/OB45_supermatrix.phy \
+  -o data/testdata/ob45_concat_matrices/OB45_supermatrix.nwk \
+  --nni --spr
+```
+
 
 ## MSA Transformer
 ### Embedding tree
