@@ -120,6 +120,7 @@ Generate tree using the distance matrix above
   -o data/testdata/ob45_concat_matrices/OB45_supermatrix.nwk \
   --nni --spr
 ```
+Done
 
 
 ## MSA Transformer
