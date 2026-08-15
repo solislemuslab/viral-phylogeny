@@ -130,24 +130,19 @@ Setup the environment
 conda activate msaphylo
 cd ~/DeepLearningClaudia/MsaPhylo
 
-mkdir data/OB45
+mkdir data/OB45_msas
 mkdir OB45_embedding_trees
 
-cp ~/DeepLearningClaudia/OB45_cleaned/*.fasta data/OB45/
+cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/OB45_msas/
 ```
 
 Generate the trees
 ```bash
-for f in data/OB45/*.fasta; do
-    name=$(basename "$f" .fasta)
-    echo "Running embedding tree for $name"
-
-    python MsaPhylo.py \
-      --i "$f" \
-      --name "$name" \
-      --o "./OB45_embedding_trees/${name}_output_tree" \
-      --l 2
-done
+python MsaPhylo.py \
+  --i "./data/OB45_msas/OB45_supermatrix.fasta" \
+  --name OB45 \
+  --o "./OB45_output_tree" \
+  --l 2
 ```
 
 ### Attention tree
