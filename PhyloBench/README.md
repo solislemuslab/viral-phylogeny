@@ -145,6 +145,20 @@ python MsaPhylo.py \
   --l 2
 ```
 
+Failure: 
+Downloading: "https://dl.fbaipublicfiles.com/fair-esm/models/esm_msa1b_t12_100M_UR50S.pt" to /mnt/ws/home/jgao/.cache/torch/hub/checkpoints/esm_msa1b_t12_100M_UR50S.pt
+Downloading: "https://dl.fbaipublicfiles.com/fair-esm/regression/esm_msa1b_t12_100M_UR50S-contact-regression.pt" to /mnt/ws/home/jgao/.cache/torch/hub/checkpoints/esm_msa1b_t12_100M_UR50S-contact-regression.pt
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 120, in <module>
+    main()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 116, in main
+    embtree.build_emb_tree()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 61, in build_emb_tree
+    plm_embedding = self.get_embedding()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 46, in get_embedding
+    raise ValueError("It exceeds the capacity of the MSA transformer!")
+ValueError: It exceeds the capacity of the MSA transformer!
+
 ### Attention tree
 Create a new python file "run_ob45_attention_trees.py"
 ```bash
