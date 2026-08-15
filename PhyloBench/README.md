@@ -101,7 +101,7 @@ conda activate phylo
 cd /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer
 
 mkdir data/testdata/ob45_msas/
-cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_msas/
+cp ../OB45_concat/OB45_supermatrix.fasta data/testdata/ob45_msas/
 ```
 
 Generate the distance matrix
@@ -133,7 +133,7 @@ cd ~/DeepLearningClaudia/MsaPhylo
 mkdir data/OB45_msas
 mkdir OB45_embedding_trees
 
-cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta data/OB45_msas/
+cp ../OB45_concat/OB45_supermatrix.fasta data/OB45_msas/
 ```
 
 Generate the trees
