@@ -18,6 +18,18 @@ Create a python file called preprocess_ob45.py
 python preprocess_ob45.py
 ```
 
+## IQ-Tree
+```bash
+# Setup the environment
+cd IQTREE_results
+module load Miniforge3-26.1.1-3 # Load for conda
+conda activate iq_tree
+conda install -c bioconda iqtree
+
+cp ~/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta .
+iqtree -s OB45_supermatrix.fasta -m GTR+G -nt AUTO
+```
+
 
 ## Phyloformer
 Setup the environment
