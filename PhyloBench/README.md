@@ -23,6 +23,7 @@ python preprocess_ob45.py
 # Setup the environment
 cd IQTREE_results
 module load Miniforge3-26.1.1-3 # Load for conda
+conda create -n iq_tree python=3.9 -c defaults
 conda activate iq_tree
 conda install -c bioconda iqtree
 
