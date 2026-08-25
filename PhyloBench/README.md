@@ -28,7 +28,7 @@ conda activate iq_tree
 conda install -c bioconda iqtree
 
 cp ../OB45_concat/OB45_supermatrix.fasta .
-iqtree -s OB45_supermatrix.fasta -m GTR+G -nt AUTO
+iqtree2 -s OB45_supermatrix.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix OB45_supermatrix
 ```
 
 
