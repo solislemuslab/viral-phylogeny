@@ -31,6 +31,10 @@ cp ../OB45_concat/OB45_supermatrix.fasta .
 iqtree2 -s OB45_supermatrix.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix OB45_supermatrix
 ```
 
+```bash
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+```
+
 
 ## Phyloformer
 Setup the environment
