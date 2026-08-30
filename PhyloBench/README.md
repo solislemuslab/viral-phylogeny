@@ -30,6 +30,7 @@ conda install -c bioconda iqtree
 cp ../OB45_concat/OB45_supermatrix.fasta .
 iqtree2 -s OB45_supermatrix.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix OB45_supermatrix # OB45_supermatrix.treefile is the result tree.
 ```
+Done
 
 
 ## Phyloformer
