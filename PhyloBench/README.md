@@ -33,6 +33,16 @@ iqtree2 -s OB45_supermatrix.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix OB4
 Done
 
 
+## CMAPLE
+```bash
+conda deactivate
+cd ~/CMAPLE
+./cmaple-1.1.0-Linux-intel/bin/cmaple \
+  -aln /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta \
+  --prefix ~/CMAPLE/CMAPLE_results/OB45_supermatrix
+```
+
+
 ## Phyloformer
 Setup the environment
 ```bash
