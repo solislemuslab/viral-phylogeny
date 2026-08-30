@@ -36,10 +36,10 @@ Done
 ## CMAPLE
 ```bash
 conda deactivate
-cd ~/CMAPLE
+cd CMAPLE
 ./cmaple-1.1.0-Linux-intel/bin/cmaple \
-  -aln /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat/OB45_supermatrix.fasta \
-  --prefix ~/CMAPLE/CMAPLE_results/OB45_supermatrix
+  -aln ../OB45_concat/OB45_supermatrix.fasta \
+  --prefix CMAPLE_results/OB45_supermatrix
 ```
 
 
