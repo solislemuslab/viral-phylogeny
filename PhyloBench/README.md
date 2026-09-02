@@ -40,7 +40,9 @@ cd CMAPLE
 ./cmaple-1.1.0-Linux-intel/bin/cmaple-aa \
   -aln ../OB45_concat/OB45_supermatrix.fasta \
   --prefix CMAPLE_results/OB45_supermatrix
+  -seed 697640
 ```
+Warning: Look like the input sequences are too divergent from each other, which makes CMAPLE very slow. We highly recommend users to use other methods (e.g., IQ-TREE) to analyse this alignment!
 
 
 ## Phyloformer
