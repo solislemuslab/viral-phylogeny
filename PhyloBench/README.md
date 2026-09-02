@@ -37,7 +37,7 @@ Done
 ```bash
 conda deactivate
 cd CMAPLE
-./cmaple-1.1.0-Linux-intel/bin/cmaple \
+./cmaple-1.1.0-Linux-intel/bin/cmaple-aa \
   -aln ../OB45_concat/OB45_supermatrix.fasta \
   --prefix CMAPLE_results/OB45_supermatrix
 ```
