@@ -42,7 +42,7 @@ cd CMAPLE
   --prefix CMAPLE_results/OB45_supermatrix \
   -seed 697640
 ```
-ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file.
 SO there is no tree file generated.
 
 
