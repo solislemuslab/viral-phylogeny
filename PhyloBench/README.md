@@ -42,7 +42,8 @@ cd CMAPLE
   --prefix CMAPLE_results/OB45_supermatrix \
   -seed 697640
 ```
-Warning: Look like the input sequences are too divergent from each other, which makes CMAPLE very slow. We highly recommend users to use other methods (e.g., IQ-TREE) to analyse this alignment!
+ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+SO there is no tree file generated.
 
 
 ## Phyloformer
