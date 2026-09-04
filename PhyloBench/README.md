@@ -207,11 +207,7 @@ Setup the environment
 cd Phyloformer2/
 module load Miniforge3-26.1.1-3 # Load for conda
 conda create -n phylo2 python=3.10
-conda activate phylo2
-pip install uv
-uv init
-uv add -r requirements.txt
-uv run path/to/pf2/script.py
+conda activate phylo2 # I use conda rather than uv
 ```
 
 
