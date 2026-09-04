@@ -210,5 +210,5 @@ conda create -n phylo2 python=3.10
 conda activate phylo2 # I use conda rather than uv
 pip install -r requirements.txt
 ```
-
+Struggle: I cannot find script.py in uv run path/to/pf2/script.py
 
