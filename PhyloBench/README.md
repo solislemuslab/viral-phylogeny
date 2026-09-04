@@ -208,7 +208,7 @@ cd Phyloformer2/
 module load Miniforge3-26.1.1-3 # Load for conda
 conda create -n phylo2 python=3.10
 conda activate phylo2 # I use conda rather than uv
-conda install --yes --file requirements.txt
+pip install -r requirements.txt
 ```
 
 
