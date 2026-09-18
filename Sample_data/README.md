@@ -130,11 +130,17 @@ cd CMAPLE/
   --prefix CMAPLE_results/PF00066_supermatrix \
   -seed 697640
 ```
-The results of running the commands above:
-![EC7892E4-3EC1-43C7-BBBA-BF69120E7601](https://github.com/user-attachments/assets/8f1d776e-3907-46ee-ac1b-869b8031b5c2)
 
 CMAPLE is completed!
 
+
+## IQTree
+```bash
+cd IQTREE_results
+module load Miniforge3-26.1.1-3 # Load for conda
+conda activate iq_tree
+iqtree2 -s PF00066.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix PF00066
+```
 
 ## NeuralNJ
 ### Linux
