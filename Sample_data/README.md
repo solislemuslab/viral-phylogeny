@@ -125,7 +125,10 @@ Note this requires compilation. Note that there is a compilation step for DNA an
 ```bash
 # Run the PF00066.fasta
 cd CMAPLE/
-./cmaple-1.1.0-Linux-intel/bin/cmaple -aln PF00066.fasta
+./cmaple-1.1.0-Linux-intel/bin/cmaple-aa \
+  -aln PF00066.fasta \
+  --prefix CMAPLE_results/PF00066_supermatrix \
+  -seed 697640
 ```
 The results of running the commands above:
 ![EC7892E4-3EC1-43C7-BBBA-BF69120E7601](https://github.com/user-attachments/assets/8f1d776e-3907-46ee-ac1b-869b8031b5c2)
