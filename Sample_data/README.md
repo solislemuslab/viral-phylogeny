@@ -257,3 +257,12 @@ uv add -r requirements.txt
 uv run path/to/pf2/script.py
 ```
 
+
+## Visualization
+```bash
+# Setup the environment
+cd Comparison/
+conda create -n compar python=3.10
+conda activate compar
+pip install dendropy, numpy, matplotlib
+```
