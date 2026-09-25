@@ -262,6 +262,7 @@ uv run path/to/pf2/script.py
 ```bash
 # Setup the environment
 cd Comparison/
+module load Miniforge3-26.1.1-3 # Load for conda
 conda create -n compar python=3.10
 conda activate compar
 pip install dendropy, numpy, matplotlib
