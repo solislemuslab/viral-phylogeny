@@ -108,10 +108,9 @@ instance_path: "./examples/covid_300_aligned/"
 ```
 
 ```bash
-# Run the PF00066.fasta
-python finetune_rl_search.py \
-  --config ./config/finetune_reinforce_search_example.yaml \
-  --infer_opt Argmax
+# Run the 10 sequences of COVID 300 dataset
+python run_neuralnj_cpu.py finetune_rl_search.py \
+  --config ./config/covid_10.yaml --infer_opt Argmax
 ```
 
 ```bash
