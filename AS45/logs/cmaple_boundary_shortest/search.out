@@ -1,0 +1,8 @@
+N=3 cols=76 success=True 11s 
+N=10 cols=271 success=True 22s 
+N=31 cols=972 success=True 99s 
+N=98 cols=4015 success=True 435s 
+N=306 cols=17672 success=True 1554s 
+N=963 cols=86972 success=False 1050s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=360 cols=21810 success=True 2253s 
+N=425 cols=27214 success=True 2748s 

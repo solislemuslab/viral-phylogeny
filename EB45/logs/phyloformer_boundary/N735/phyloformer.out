@@ -1,0 +1,20 @@
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [1:38:24<00:00, 5904.98s/it]100%|██████████| 1/1 [1:38:24<00:00, 5904.98s/it]
+PEAK_KB 989865636
+
+ . This analysis will run on 72 threads.
+
+#  Analysing dataset 1
+
+ . Warning: Triangular inequality violation.
+
+ . You may ask for triangular inequality correction using the '-q' option.
+
+ . Computing tree...
+
+ . Tree length is 83.887069.
+
+ . Performing NNI...
+
+ . Performing SPR...
+
+ . Time used 0h00m02s

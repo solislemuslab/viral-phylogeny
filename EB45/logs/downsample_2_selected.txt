@@ -1,0 +1,2 @@
+EB_PF00227_6.fasta
+EB_PF06472_1.fasta

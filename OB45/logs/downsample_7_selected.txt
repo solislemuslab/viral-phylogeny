@@ -1,0 +1,7 @@
+OB_PF00117_3.fasta
+OB_PF00364_1.fasta
+OB_PF00416_1.fasta
+OB_PF00542_1.fasta
+OB_PF01029_1.fasta
+OB_PF01171_1.fasta
+OB_PF01380_1.fasta

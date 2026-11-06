@@ -1,0 +1,14 @@
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/AS45_msas
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AS45_attention_trees
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running AS45_supermatrix
+MSA file: data/AS45_msas/AS45_supermatrix.fasta
+================================================================================
+Failed AS45_supermatrix
+Error: Sequence length 727785 above maximum  sequence length of 1024
+
+All finished. Failed: 1 ['AS45_supermatrix']

@@ -1,0 +1,7 @@
+N=700 cols=160672 success=False 1064s peak=884GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+N=650 cols=147010 success=True 6314s peak=809GB 
+N=675 cols=153890 success=True 6774s peak=847GB 
+N=687 cols=157721 success=True 8480s peak=868GB 
+N=693 cols=159155 success=True 8288s peak=876GB 
+N=746 cols=174853 success=False 394s peak=741GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+N=719 cols=165887 success=False 351s peak=703GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo

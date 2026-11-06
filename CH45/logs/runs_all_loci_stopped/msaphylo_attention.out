@@ -1,0 +1,14 @@
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/CH45_msas
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running CH45_supermatrix
+MSA file: data/CH45_msas/CH45_supermatrix.fasta
+================================================================================
+Failed CH45_supermatrix
+Error: Sequence length 733472 above maximum  sequence length of 1024
+
+All finished. Failed: 1 ['CH45_supermatrix']

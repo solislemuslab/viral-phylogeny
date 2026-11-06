@@ -1,0 +1,95 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/home/jgao/.conda/envs/iq_tree/bin/iqtree2 -s AS45_supermatrix_800.fasta -m MFP -T AUTO --threads-max 28 -B 1000 -alrt 1000 --prefix AS45_supermatrix_800
+Seed:    242345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 22 20:46:28 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file AS45_supermatrix_800.fasta ... Fasta format detected
+Reading fasta file: done in 0.173977 secs using 93.2% CPU
+Alignment most likely contains protein sequences
+Alignment has 60 sequences with 188125 columns, 152241 distinct patterns
+110418 parsimony-informative, 25949 singleton sites, 51757 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0188031 secs using 4201% CPU
+   1  ACRC1   32.89%    failed      0.00%
+   2  AJECG   38.47%    failed      0.00%
+   3  ALTAL   46.33%    failed      0.00%
+   4  AMORE   34.08%    failed      0.02%
+   5  ARTGP   46.26%    failed      0.00%
+   6  ARTOA   36.53%    failed      0.00%
+   7  ASPWE   34.73%    failed      0.00%
+   8  AURPU   33.97%    failed      0.06%
+   9  BEAB2   34.36%    failed      0.00%
+  10  BLAGS   38.28%    failed      0.00%
+  11  BOTF1   39.97%    failed      0.00%
+  12  BYSSP   34.23%    failed      0.00%
+  13  CERBT   33.20%    failed      0.00%
+  14  CHATD   33.39%    failed      0.00%
+  15  COCIT   36.05%    failed      0.00%
+  16  COCSN   51.65%    failed      0.00%
+  17  COLGM   35.64%    passed     73.31%
+  18  CONA1   35.91%    failed      0.00%
+  19  CORCC   36.24%    passed      5.22%
+  20  DIDRA   43.28%    failed      0.05%
+  21  DOTSN   35.53%    failed      0.00%
+  22  EPING   40.68%    failed      0.00%
+  23  EXODN   32.62%    passed     81.49%
+  24  FUSOX   36.05%    failed      1.15%
+  25  GLAL2   36.03%    failed      0.00%
+  26  HORWE   35.43%    failed      0.00%
+  27  LEPMJ   36.39%    passed     18.25%
+  28  MACPH   38.13%    failed      0.01%
+  29  MAGO7   34.53%    failed      0.00%
+  30  MARBU   36.65%    failed      0.00%
+  31  METAN   40.62%    passed     21.53%
+  32  METCM   42.07%    passed     10.11%
+  33  MYCTT   33.88%    failed      0.00%
+  34  NEUCR   45.64%    passed     11.47%
+  35  OPHP1   31.76%    failed      0.00%
+  36  PARBD   33.97%    failed      0.00%
+  37  PENO1   33.54%    failed      0.00%
+  38  PESFW   33.85%    passed     45.67%
+  39  PHANO   38.47%    failed      0.00%
+  40  PODAN   32.80%    failed      0.00%
+  41  PSED2   34.30%    failed      0.00%
+  42  PSEFD   37.42%    failed      0.00%
+  43  PYROM   33.25%    failed      0.00%
+  44  PYRTT   46.54%    failed      0.00%
+  45  ROSNE   33.11%    failed      0.00%
+  46  SCLBF   39.93%    failed      0.00%
+  47  SCYLI   33.66%    failed      0.00%
+  48  SETT2   48.18%    failed      0.00%
+  49  SORMK   46.11%    failed      0.03%
+  50  SPHMS   42.65%    failed      0.00%
+  51  SPOS1   33.20%    failed      0.00%
+  52  STAC4   33.69%    failed      0.00%
+  53  TALSN   30.19%    failed      0.00%
+  54  TRIHA   32.10%    passed     59.95%
+  55  TRIIM   46.25%    failed      0.00%
+  56  TUBBO   33.49%    failed      0.00%
+  57  VENIN   33.26%    failed      0.00%
+  58  VERDA   31.59%    failed      0.00%
+  59  XYLHT   31.90%    failed      0.00%
+  60  ZYMTR   32.43%    failed      0.05%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL   36.96%  51 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000531561 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 22.331 seconds
+Measuring multi-threading efficiency up to 28 CPU cores
+2 trees examined
+Threads: 1 / Time: 126.511 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -8062920
+Threads: 2 / Time: 67.883 sec / Speedup: 1.864 / Efficiency: 93% / LogL: -8062920
+Threads: 3 / Time: 54.172 sec / Speedup: 2.335 / Efficiency: 78% / LogL: -8062920
+Threads: 4 / Time: 32.459 sec / Speedup: 3.898 / Efficiency: 97% / LogL: -8062920
+Threads: 5 / Time: 45.096 sec / Speedup: 2.805 / Efficiency: 56% / LogL: -8062920
+BEST NUMBER OF THREADS: 4
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+AS45/run_as45.sh: line 10: 2359411 Terminated              $ENVS/iq_tree/bin/iqtree2 -s $S.fasta -m MFP -T AUTO --threads-max 28 -B 1000 -alrt 1000 --prefix $S

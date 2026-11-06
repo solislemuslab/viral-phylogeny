@@ -1,0 +1,2 @@
+largest success: 693 loci (159155 columns)
+smallest failure above it: 700 loci

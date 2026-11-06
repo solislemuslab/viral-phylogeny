@@ -1,0 +1,5 @@
+N=3 cols=964 success=False 16s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/find_cmaple_boundary.py", line 73, in <module>
+    log.flush()
+OSError: [Errno 122] Disk quota exceeded

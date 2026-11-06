@@ -1,0 +1,14 @@
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/AG45_msas
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AG45_attention_trees
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running AG45_supermatrix
+MSA file: data/AG45_msas/AG45_supermatrix.fasta
+================================================================================
+Failed AG45_supermatrix
+Error: Sequence length 60175 above maximum  sequence length of 1024
+
+All finished. Failed: 1 ['AG45_supermatrix']

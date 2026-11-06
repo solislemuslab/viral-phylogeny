@@ -1,0 +1,11 @@
+N=2 cols=310 success=True 34s 
+N=5 cols=1094 success=False 18s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=11 cols=2118 success=False 76s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=25 cols=5082 success=False 385s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=57 cols=11933 success=False 837s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=127 cols=26599 success=False 583s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=3 cols=642 success=True 50s 
+N=4 cols=787 success=True 74s 
+largest success: 4 loci (787 columns)
+smallest failure above it: 5 loci
+

@@ -1,0 +1,9 @@
+n_loci	columns	success	seconds	error
+3	76	True	11	
+10	271	True	22	
+31	972	True	99	
+98	4015	True	435	
+306	17672	True	1554	
+963	86972	False	1050	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+360	21810	True	2253	
+425	27214	True	2748	

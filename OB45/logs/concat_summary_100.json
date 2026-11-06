@@ -1,0 +1,6 @@
+{
+  "n_alignments": 100,
+  "n_taxa_union": 60,
+  "supermatrix_length": 19953,
+  "output": "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat_100/OB45_supermatrix_100.fasta"
+}

@@ -1,0 +1,196 @@
+level,group,size,tree,intruders,monophyletic
+group,Non-animals,14,IQ-TREE,74,no
+group,Non-animals,14,CMAPLE,68,no
+group,Non-animals,14,Phyloformer,72,no
+group,Non-animals,14,MSA-T embedding,69,no
+group,Non-animals,14,MSA-T attention,66,no
+group,Vertebrata,47,IQ-TREE,46,no
+group,Vertebrata,47,CMAPLE,46,no
+group,Vertebrata,47,Phyloformer,46,no
+group,Vertebrata,47,MSA-T embedding,46,no
+group,Vertebrata,47,MSA-T attention,47,no
+group,Nematoda,11,IQ-TREE,58,no
+group,Nematoda,11,CMAPLE,74,no
+group,Nematoda,11,Phyloformer,65,no
+group,Nematoda,11,MSA-T embedding,71,no
+group,Nematoda,11,MSA-T attention,64,no
+group,Other animals,17,IQ-TREE,75,no
+group,Other animals,17,CMAPLE,76,no
+group,Other animals,17,Phyloformer,67,no
+group,Other animals,17,MSA-T embedding,79,no
+group,Other animals,17,MSA-T attention,77,no
+group,Insecta,15,IQ-TREE,70,no
+group,Insecta,15,CMAPLE,60,no
+group,Insecta,15,Phyloformer,69,no
+group,Insecta,15,MSA-T embedding,75,no
+group,Insecta,15,MSA-T attention,75,no
+subgroup,Actinopterygii,17,IQ-TREE,75,no
+subgroup,Actinopterygii,17,CMAPLE,69,no
+subgroup,Actinopterygii,17,Phyloformer,66,no
+subgroup,Actinopterygii,17,MSA-T embedding,74,no
+subgroup,Actinopterygii,17,MSA-T attention,73,no
+subgroup,Caenorhabditis,6,IQ-TREE,63,no
+subgroup,Caenorhabditis,6,CMAPLE,79,no
+subgroup,Caenorhabditis,6,Phyloformer,70,no
+subgroup,Caenorhabditis,6,MSA-T embedding,64,no
+subgroup,Caenorhabditis,6,MSA-T attention,69,no
+subgroup,Diptera,6,IQ-TREE,79,no
+subgroup,Diptera,6,CMAPLE,69,no
+subgroup,Diptera,6,Phyloformer,78,no
+subgroup,Diptera,6,MSA-T embedding,84,no
+subgroup,Diptera,6,MSA-T attention,84,no
+subgroup,Mammalia,13,IQ-TREE,80,no
+subgroup,Mammalia,13,CMAPLE,78,no
+subgroup,Mammalia,13,Phyloformer,80,no
+subgroup,Mammalia,13,MSA-T embedding,80,no
+subgroup,Mammalia,13,MSA-T attention,81,no
+subgroup,Aves,3,IQ-TREE,82,no
+subgroup,Aves,3,CMAPLE,79,no
+subgroup,Aves,3,Phyloformer,80,no
+subgroup,Aves,3,MSA-T embedding,83,no
+subgroup,Aves,3,MSA-T attention,79,no
+subgroup,Tunicata,4,IQ-TREE,81,no
+subgroup,Tunicata,4,CMAPLE,82,no
+subgroup,Tunicata,4,Phyloformer,80,no
+subgroup,Tunicata,4,MSA-T embedding,87,no
+subgroup,Tunicata,4,MSA-T attention,83,no
+subgroup,Hemiptera,2,IQ-TREE,6,no
+subgroup,Hemiptera,2,CMAPLE,36,no
+subgroup,Hemiptera,2,Phyloformer,4,no
+subgroup,Hemiptera,2,MSA-T embedding,8,no
+subgroup,Hemiptera,2,MSA-T attention,8,no
+protein,A0A0D2VVS9_CAPO3,3,IQ-TREE,45,no
+protein,A0A0D2VVS9_CAPO3,3,CMAPLE,79,no
+protein,A0A0D2VVS9_CAPO3,3,Phyloformer,80,no
+protein,A0A0D2VVS9_CAPO3,3,MSA-T embedding,80,no
+protein,A0A0D2VVS9_CAPO3,3,MSA-T attention,77,no
+protein,A0A1I7VNX4_LOALO,2,IQ-TREE,65,no
+protein,A0A1I7VNX4_LOALO,2,CMAPLE,61,no
+protein,A0A1I7VNX4_LOALO,2,Phyloformer,74,no
+protein,A0A1I7VNX4_LOALO,2,MSA-T embedding,80,no
+protein,A0A1I7VNX4_LOALO,2,MSA-T attention,68,no
+protein,A8X345_CAEBR,2,IQ-TREE,67,no
+protein,A8X345_CAEBR,2,CMAPLE,83,no
+protein,A8X345_CAEBR,2,Phyloformer,74,no
+protein,A8X345_CAEBR,2,MSA-T embedding,68,no
+protein,A8X345_CAEBR,2,MSA-T attention,73,no
+protein,B3N1W3_DROAN,2,IQ-TREE,62,no
+protein,B3N1W3_DROAN,2,CMAPLE,73,no
+protein,B3N1W3_DROAN,2,Phyloformer,81,no
+protein,B3N1W3_DROAN,2,MSA-T embedding,61,no
+protein,B3N1W3_DROAN,2,MSA-T attention,78,no
+protein,B4GYL6_DROPE,2,IQ-TREE,83,no
+protein,B4GYL6_DROPE,2,CMAPLE,61,no
+protein,B4GYL6_DROPE,2,Phyloformer,63,no
+protein,B4GYL6_DROPE,2,MSA-T embedding,84,no
+protein,B4GYL6_DROPE,2,MSA-T attention,80,no
+protein,B6ACH2_CRYMR,3,IQ-TREE,50,no
+protein,B6ACH2_CRYMR,3,CMAPLE,57,no
+protein,B6ACH2_CRYMR,3,Phyloformer,18,no
+protein,B6ACH2_CRYMR,3,MSA-T embedding,10,no
+protein,B6ACH2_CRYMR,3,MSA-T attention,4,no
+protein,B7PT11_IXOSC,3,IQ-TREE,82,no
+protein,B7PT11_IXOSC,3,CMAPLE,73,no
+protein,B7PT11_IXOSC,3,Phyloformer,81,no
+protein,B7PT11_IXOSC,3,MSA-T embedding,87,no
+protein,B7PT11_IXOSC,3,MSA-T attention,87,no
+protein,C3YU01_BRAFL,2,IQ-TREE,46,no
+protein,C3YU01_BRAFL,2,CMAPLE,66,no
+protein,C3YU01_BRAFL,2,Phyloformer,81,no
+protein,C3YU01_BRAFL,2,MSA-T embedding,61,no
+protein,C3YU01_BRAFL,2,MSA-T attention,78,no
+protein,D6X555_TRICA,2,IQ-TREE,83,no
+protein,D6X555_TRICA,2,CMAPLE,61,no
+protein,D6X555_TRICA,2,Phyloformer,63,no
+protein,D6X555_TRICA,2,MSA-T embedding,84,no
+protein,D6X555_TRICA,2,MSA-T attention,80,no
+protein,E0VHU5_PEDHC,3,IQ-TREE,82,no
+protein,E0VHU5_PEDHC,3,CMAPLE,72,no
+protein,E0VHU5_PEDHC,3,Phyloformer,81,no
+protein,E0VHU5_PEDHC,3,MSA-T embedding,87,no
+protein,E0VHU5_PEDHC,3,MSA-T attention,74,no
+protein,E9I119_DAPPU,2,IQ-TREE,62,no
+protein,E9I119_DAPPU,2,CMAPLE,64,no
+protein,E9I119_DAPPU,2,Phyloformer,81,no
+protein,E9I119_DAPPU,2,MSA-T embedding,61,no
+protein,E9I119_DAPPU,2,MSA-T attention,78,no
+protein,F4PIE4_CAVFA,2,IQ-TREE,0,yes
+protein,F4PIE4_CAVFA,2,CMAPLE,5,no
+protein,F4PIE4_CAVFA,2,Phyloformer,18,no
+protein,F4PIE4_CAVFA,2,MSA-T embedding,0,yes
+protein,F4PIE4_CAVFA,2,MSA-T attention,5,no
+protein,F6XA19_XENTR,2,IQ-TREE,86,no
+protein,F6XA19_XENTR,2,CMAPLE,80,no
+protein,F6XA19_XENTR,2,Phyloformer,81,no
+protein,F6XA19_XENTR,2,MSA-T embedding,76,no
+protein,F6XA19_XENTR,2,MSA-T attention,80,no
+protein,F7AZ47_CIOIN,3,IQ-TREE,82,no
+protein,F7AZ47_CIOIN,3,CMAPLE,83,no
+protein,F7AZ47_CIOIN,3,Phyloformer,81,no
+protein,F7AZ47_CIOIN,3,MSA-T embedding,88,no
+protein,F7AZ47_CIOIN,3,MSA-T attention,84,no
+protein,G1KM89_ANOCA,2,IQ-TREE,63,no
+protein,G1KM89_ANOCA,2,CMAPLE,63,no
+protein,G1KM89_ANOCA,2,Phyloformer,64,no
+protein,G1KM89_ANOCA,2,MSA-T embedding,61,no
+protein,G1KM89_ANOCA,2,MSA-T attention,67,no
+protein,G1KTN8_ANOCA,2,IQ-TREE,85,no
+protein,G1KTN8_ANOCA,2,CMAPLE,80,no
+protein,G1KTN8_ANOCA,2,Phyloformer,81,no
+protein,G1KTN8_ANOCA,2,MSA-T embedding,76,no
+protein,G1KTN8_ANOCA,2,MSA-T attention,80,no
+protein,G1N6E4_MELGA,2,IQ-TREE,83,no
+protein,G1N6E4_MELGA,2,CMAPLE,80,no
+protein,G1N6E4_MELGA,2,Phyloformer,81,no
+protein,G1N6E4_MELGA,2,MSA-T embedding,84,no
+protein,G1N6E4_MELGA,2,MSA-T attention,80,no
+protein,G3HP78_CRIGR,3,IQ-TREE,89,no
+protein,G3HP78_CRIGR,3,CMAPLE,77,no
+protein,G3HP78_CRIGR,3,Phyloformer,80,no
+protein,G3HP78_CRIGR,3,MSA-T embedding,88,no
+protein,G3HP78_CRIGR,3,MSA-T attention,87,no
+protein,H2LN98_ORYLA,2,IQ-TREE,86,no
+protein,H2LN98_ORYLA,2,CMAPLE,80,no
+protein,H2LN98_ORYLA,2,Phyloformer,81,no
+protein,H2LN98_ORYLA,2,MSA-T embedding,76,no
+protein,H2LN98_ORYLA,2,MSA-T attention,80,no
+protein,H3A230_LATCH,2,IQ-TREE,85,no
+protein,H3A230_LATCH,2,CMAPLE,80,no
+protein,H3A230_LATCH,2,Phyloformer,81,no
+protein,H3A230_LATCH,2,MSA-T embedding,76,no
+protein,H3A230_LATCH,2,MSA-T attention,80,no
+protein,H3AY77_LATCH,3,IQ-TREE,73,no
+protein,H3AY77_LATCH,3,CMAPLE,83,no
+protein,H3AY77_LATCH,3,Phyloformer,61,no
+protein,H3AY77_LATCH,3,MSA-T embedding,60,no
+protein,H3AY77_LATCH,3,MSA-T attention,66,no
+protein,H3B6B7_LATCH,2,IQ-TREE,62,no
+protein,H3B6B7_LATCH,2,CMAPLE,83,no
+protein,H3B6B7_LATCH,2,Phyloformer,81,no
+protein,H3B6B7_LATCH,2,MSA-T embedding,61,no
+protein,H3B6B7_LATCH,2,MSA-T attention,78,no
+protein,H3C9P5_TETNG,2,IQ-TREE,49,no
+protein,H3C9P5_TETNG,2,CMAPLE,83,no
+protein,H3C9P5_TETNG,2,Phyloformer,61,no
+protein,H3C9P5_TETNG,2,MSA-T embedding,61,no
+protein,H3C9P5_TETNG,2,MSA-T attention,67,no
+protein,H3ERZ0_PRIPA,2,IQ-TREE,43,no
+protein,H3ERZ0_PRIPA,2,CMAPLE,83,no
+protein,H3ERZ0_PRIPA,2,Phyloformer,64,no
+protein,H3ERZ0_PRIPA,2,MSA-T embedding,39,no
+protein,H3ERZ0_PRIPA,2,MSA-T attention,53,no
+protein,L5L5A1_PTEAL,3,IQ-TREE,70,no
+protein,L5L5A1_PTEAL,3,CMAPLE,62,no
+protein,L5L5A1_PTEAL,3,Phyloformer,63,no
+protein,L5L5A1_PTEAL,3,MSA-T embedding,60,no
+protein,L5L5A1_PTEAL,3,MSA-T attention,66,no
+protein,Q5CRC0_CRYPI,3,IQ-TREE,2,no
+protein,Q5CRC0_CRYPI,3,CMAPLE,2,no
+protein,Q5CRC0_CRYPI,3,Phyloformer,2,no
+protein,Q5CRC0_CRYPI,3,MSA-T embedding,2,no
+protein,Q5CRC0_CRYPI,3,MSA-T attention,3,no
+protein,W5LEC4_ASTMX,3,IQ-TREE,85,no
+protein,W5LEC4_ASTMX,3,CMAPLE,83,no
+protein,W5LEC4_ASTMX,3,Phyloformer,80,no
+protein,W5LEC4_ASTMX,3,MSA-T embedding,75,no
+protein,W5LEC4_ASTMX,3,MSA-T attention,83,no

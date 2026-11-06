@@ -1,0 +1,5 @@
+N=3 cols=65 success=True 3s 
+N=10 cols=244 success=True 24s 
+N=32 cols=996 success=True 109s 
+N=102 cols=4257 success=True 320s 
+N=324 cols=19421 success=True 1851s 

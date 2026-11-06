@@ -1,0 +1,309 @@
+IQ-TREE 2.3.6 built Dec 11 2024
+
+Input file name: COVID_data_fasta/covid_100_aligned.fasta
+Type of analysis: tree reconstruction
+Random seed number: 603
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 29994 nucleotide sites
+Number of constant sites: 24048 (= 80.176% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 24048 (= 80.176% of all sites)
+Number of parsimony informative sites: 2312
+Number of distinct site patterns: 1326
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.2048
+  A-G: 4.7424
+  A-T: 2.4099
+  C-G: 0.5124
+  C-T: 10.1200
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2989
+  pi(C) = 0.1837
+  pi(G) = 0.1963
+  pi(T) = 0.3211
+
+Rate matrix Q:
+
+  A   -0.7678   0.08825    0.3711    0.3085
+  C    0.1436    -1.479   0.04009     1.295
+  G    0.5651   0.03753   -0.7306     0.128
+  T    0.2871    0.7413   0.07824    -1.107
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3006
+
+ Category  Relative_rate  Proportion
+  1         0.00534        0.25
+  2         0.1049         0.25
+  3         0.5967         0.25
+  4         3.293          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -73409.2426 (s.e. 349.1967)
+Unconstrained log-likelihood (without tree): -111405.6832
+Number of free parameters (#branches + #model parameters): 206
+Akaike information criterion (AIC) score: 147230.4852
+Corrected Akaike information criterion (AICc) score: 147233.3483
+Bayesian information criterion (BIC) score: 148942.0882
+
+Total tree length (sum of branch lengths): 0.3373
+Sum of internal branch lengths: 0.1260 (37.3465% of tree length)
+
+WARNING: 76 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'hCoV-19/Belgium/KA-03042/2020|EPI_ISL_417424|2020-03-04' is drawn at root
+
++**hCoV-19/Belgium/KA-03042/2020|EPI_ISL_417424|2020-03-04
+|
+|                                               +--hCoV-19/Scotland/EDB1647/2020|EPI_ISL_433104|2020-04-14
+|                                            +**|
+|                                            |  +--hCoV-19/Italy/ABR-IZSGC-TE6195/2020|EPI_ISL_420569|2020-03-23
+|                                         +**|
+|                                         |  +--hCoV-19/Jordan/SR-033/2020|EPI_ISL_429993|2020-03-16
+|                                      +**|
+|                                      |  +--hCoV-19/England/SHEF-C092F/2020|EPI_ISL_420176|2020-03-20
+|                                   +**|
+|                                   |  +--hCoV-19/England/CAMB-7AF22/2020|EPI_ISL_433895|2020-04-10
+|                                +**|
+|                                |  +--hCoV-19/USA/VA-DCLS-0114/2020|EPI_ISL_434605|2020-04-09
+|                             +**|
+|                             |  +--hCoV-19/England/CAMB-7FC26/2020|EPI_ISL_433493|2020-04-16
+|                          +**|
+|                          |  +**hCoV-19/Iceland/83/2020|EPI_ISL_417868|2020-03-09
+|                       +**|
+|                       |  +**hCoV-19/Switzerland/TI-HUG-2045/2020|EPI_ISL_415703|2020-03-01
+|                    +**|
+|                    |  |     +**hCoV-19/Netherlands/NoordHolland_2/2020|EPI_ISL_414549|2020-03-03
+|                    |  |  +**|
+|                    |  |  |  +--hCoV-19/Switzerland/GE-HUG-6414/2020|EPI_ISL_429217|2020-04-06
+|                    |  +**|
+|                    |     +--hCoV-19/Russia/StPetersburg-RII4988S/2020|EPI_ISL_430083|2020-04-10
+|                 +**|
+|                 |  |  +--hCoV-19/France/OCC-13/2020|EPI_ISL_434628|2020-04-07
+|                 |  +**|
+|                 |     +**hCoV-19/Russia/StPetersburg-RII5017V/2020|EPI_ISL_430084|2020-04-09
+|              +--|
+|              |  |  +**hCoV-19/Iceland/583/2020|EPI_ISL_424603|2020-03-27
+|              |  +--|
+|              |     +**hCoV-19/Kazakhstan/NCB-3/2020|EPI_ISL_435047|2020-03-25
+|           +**|
+|           |  +**hCoV-19/England/201360202/2020|EPI_ISL_423239|2020-03-24
+|        +**|
+|        |  |              +--hCoV-19/Wales/PHWC-25F44/2020|EPI_ISL_422029|2020-03-25
+|        |  |           +--|
+|        |  |           |  |  +--hCoV-19/England/20140071704/2020|EPI_ISL_423415|2020-03-29
+|        |  |           |  +**|
+|        |  |           |     +--hCoV-19/Australia/NSW150/2020|EPI_ISL_427796|2020-03-19
+|        |  |        +**|
+|        |  |        |  |     +--hCoV-19/Iceland/401/2020|EPI_ISL_424425|2020-03-19
+|        |  |        |  |  +**|
+|        |  |        |  |  |  +--hCoV-19/USA/TX-HMH0403/2020|EPI_ISL_434990|2020-03-31
+|        |  |        |  +**|
+|        |  |        |     +--hCoV-19/Iceland/208/2020|EPI_ISL_417766|2020-03-16
+|        |  |     +**|
+|        |  |     |  |     +**hCoV-19/France/IDF-3324/2020|EPI_ISL_421512|2020-03-23
+|        |  |     |  |  +**|
+|        |  |     |  |  |  +--hCoV-19/France/IDF-2278/2020|EPI_ISL_416499|2020-03-11
+|        |  |     |  +--|
+|        |  |     |     +--hCoV-19/Australia/VIC170/2020|EPI_ISL_419867|2020-03-18
+|        |  |  +**|
+|        |  |  |  |                                      +--hCoV-19/Denmark/ALAB-HH87/2020|EPI_ISL_429327|2020-03-15
+|        |  |  |  |                                   +--|
+|        |  |  |  |                                   |  |           +**hCoV-19/Spain/MD-H12-30/2020|EPI_ISL_428693|2020-03-12
+|        |  |  |  |                                   |  |        +**|
+|        |  |  |  |                                   |  |        |  |  +**hCoV-19/USA/WA-UW-4695/2020|EPI_ISL_429631|2020-04-06
+|        |  |  |  |                                   |  |        |  +--|
+|        |  |  |  |                                   |  |        |     +--hCoV-19/USA/WA-UW-3941/2020|EPI_ISL_427215|2020-03-27
+|        |  |  |  |                                   |  |     +**|
+|        |  |  |  |                                   |  |     |  +--hCoV-19/USA/VA-DCLS-0039/2020|EPI_ISL_420021|2020-03-22
+|        |  |  |  |                                   |  |  +**|
+|        |  |  |  |                                   |  |  |  +--hCoV-19/USA/WI-GMF-01551/2020|EPI_ISL_435398|2020-04-22
+|        |  |  |  |                                   |  +**|
+|        |  |  |  |                                   |     +**hCoV-19/USA/NY-PV08402/2020|EPI_ISL_421370|2020-03-16
+|        |  |  |  |                                +**|
+|        |  |  |  |                                |  +--hCoV-19/Scotland/EDB1582/2020|EPI_ISL_433087|2020-04-13
+|        |  |  |  |                             +**|
+|        |  |  |  |                             |  |  +**hCoV-19/Wales/PHWC-264BD/2020|EPI_ISL_422042|2020-03-28
+|        |  |  |  |                             |  +--|
+|        |  |  |  |                             |     +--hCoV-19/Wales/PHWC-2715B/2020|EPI_ISL_422124|2020-03-29
+|        |  |  |  |                          +**|
+|        |  |  |  |                          |  +**hCoV-19/France/BRE-2337/2020|EPI_ISL_416506|2020-03-03
+|        |  |  |  |                       +**|
+|        |  |  |  |                       |  +--hCoV-19/Belgium/NJC-0324126/2020|EPI_ISL_420383|2020-03-24
+|        |  |  |  |                    +**|
+|        |  |  |  |                    |  +--hCoV-19/USA/WI-GMF-00986/2020|EPI_ISL_426159|2020-04-06
+|        |  |  |  |                 +**|
+|        |  |  |  |                 |  +--hCoV-19/USA/NY-WCMP12C04P/2020|EPI_ISL_427601|2020-03-16
+|        |  |  |  |              +**|
+|        |  |  |  |              |  +--hCoV-19/USA/NY-WCMP10A02P/2020|EPI_ISL_427553|2020-03-15
+|        |  |  |  |           +**|
+|        |  |  |  |           |  |  +**hCoV-19/USA/WA-UW-2119/2020|EPI_ISL_426091|2020-03-25
+|        |  |  |  |           |  +--|
+|        |  |  |  |           |     +--hCoV-19/USA/WA-S559/2020|EPI_ISL_434319|2020-03-27
+|        |  |  |  |        +--|
+|        |  |  |  |        |  |     +--hCoV-19/Sweden/20-08172/2020|EPI_ISL_430855|2020-03-12
+|        |  |  |  |        |  |  +**|
+|        |  |  |  |        |  |  |  |                    +--hCoV-19/USA/WA-UW123/2020|EPI_ISL_416661|2020-03-12
+|        |  |  |  |        |  |  |  |                 +**|
+|        |  |  |  |        |  |  |  |                 |  +--hCoV-19/USA/WA-UW359/2020|EPI_ISL_418926|2020-03-14
+|        |  |  |  |        |  |  |  |              +**|
+|        |  |  |  |        |  |  |  |              |  +--hCoV-19/USA/WA-UW-4227/2020|EPI_ISL_427250|2020-03-31
+|        |  |  |  |        |  |  |  |           +--|
+|        |  |  |  |        |  |  |  |           |  +--hCoV-19/USA/WA-UW-3984/2020|EPI_ISL_427225|2020-03-29
+|        |  |  |  |        |  |  |  |        +**|
+|        |  |  |  |        |  |  |  |        |  +**hCoV-19/USA/NY-Wadsworth-11190-01/2020|EPI_ISL_426324|2020-03-06
+|        |  |  |  |        |  |  |  |     +**|
+|        |  |  |  |        |  |  |  |     |  +**hCoV-19/USA/WA-UW-6173/2020|EPI_ISL_430936|2020-04-01
+|        |  |  |  |        |  |  |  |  +--|
+|        |  |  |  |        |  |  |  |  |  +--hCoV-19/USA/MD-HP00041/2020|EPI_ISL_434638|2020-03-19
+|        |  |  |  |        |  |  |  +**|
+|        |  |  |  |        |  |  |     +--hCoV-19/USA/AZ-TGEN-TG271870/2020|EPI_ISL_426606|2020-03-24
+|        |  |  |  |        |  +**|
+|        |  |  |  |        |     +**hCoV-19/Taiwan/NTU09/2020|EPI_ISL_422412|2020-03-14
+|        |  |  |  |     +--|
+|        |  |  |  |     |  |     +--hCoV-19/England/201380028/2020|EPI_ISL_421796|2020-03-27
+|        |  |  |  |     |  |  +--|
+|        |  |  |  |     |  |  |  |  +--hCoV-19/Finland/13M33/2020|EPI_ISL_418390|2020-03-13
+|        |  |  |  |     |  |  |  +**|
+|        |  |  |  |     |  |  |     +--hCoV-19/USA/VA-DCLS-0048/2020|EPI_ISL_426456|2020-03-30
+|        |  |  |  |     |  +**|
+|        |  |  |  |     |     +--hCoV-19/Belgium/ULG-6670/2020|EPI_ISL_417018|2020-03-14
+|        |  |  |  |  +**|
+|        |  |  |  |  |  +--hCoV-19/USA/NY-NYUMC411/2020|EPI_ISL_435478|2020-03-30
+|        |  |  |  +**|
+|        |  |  |     +**hCoV-19/USA/WA-UW120/2020|EPI_ISL_416658|2020-03-11
+|        |  +**|
+|        |     |  +--hCoV-19/Luxembourg/LNS3770609/2020|EPI_ISL_421747|2020-03-17
+|        |     +**|
+|        |        |  +--hCoV-19/Netherlands/NoordBrabant_70/2020|EPI_ISL_422866|2020-03-11
+|        |        +**|
+|        |           +--hCoV-19/Australia/VIC1328/2020|EPI_ISL_430695|2020-04-12
+|     +**|
+|     |  |                    +--hCoV-19/England/NOTT-10E12C/2020|EPI_ISL_425501|2020-03-15
+|     |  |                 +--|
+|     |  |                 |  |           +--hCoV-19/England/CAMB-74C8B/2020|EPI_ISL_425362|2020-03-17
+|     |  |                 |  |        +**|
+|     |  |                 |  |        |  +--hCoV-19/England/SHEF-C0549/2020|EPI_ISL_420249|2020-03-26
+|     |  |                 |  |     +**|
+|     |  |                 |  |     |  +--hCoV-19/USA/DC-HP00022/2020|EPI_ISL_434691|2020-03-22
+|     |  |                 |  |  +**|
+|     |  |                 |  |  |  |  +**hCoV-19/England/20134020004/2020|EPI_ISL_423108|2020-03-23
+|     |  |                 |  |  |  +**|
+|     |  |                 |  |  |     +--hCoV-19/England/20128095504/2020|EPI_ISL_423970|2020-03-20
+|     |  |                 |  +**|
+|     |  |                 |     |  +--hCoV-19/England/20122088102/2020|EPI_ISL_418678|2020-03-16
+|     |  |                 |     +**|
+|     |  |                 |        +--hCoV-19/England/20124034702/2020|EPI_ISL_418711|2020-03-16
+|     |  |              +--|
+|     |  |              |  +--hCoV-19/Scotland/EDB735/2020|EPI_ISL_433234|2020-04-02
+|     |  |           +--|
+|     |  |           |  +--hCoV-19/Belgium/VPE-030650/2020|EPI_ISL_418805|2020-03-06
+|     |  |        +**|
+|     |  |        |  |  +--hCoV-19/France/IDF-0515/2020|EPI_ISL_408430|2020-01-29
+|     |  |        |  +**|
+|     |  |        |     |  +--hCoV-19/Singapore/87/2020|EPI_ISL_435692|2020-04-21
+|     |  |        |     +**|
+|     |  |        |        +--hCoV-19/Thailand/Bangkok-0039/2020|EPI_ISL_429175|2020-03-28
+|     |  |     +**|
+|     |  |     |  +--hCoV-19/Wales/PHWC-29B79/2020|EPI_ISL_432253|2020-04-04
+|     |  |  +**|
+|     |  |  |  |     +--hCoV-19/Scotland/CVR1410/2020|EPI_ISL_433574|2020-04-01
+|     |  |  |  |  +**|
+|     |  |  |  |  |  +--hCoV-19/Netherlands/NA_137/2020|EPI_ISL_422681|2020-03-19
+|     |  |  |  +**|
+|     |  |  |     +--hCoV-19/Japan/KY-V-029/2020|EPI_ISL_408669|2020-01-29
+|     |  +--|
+|     |     |     +--hCoV-19/Turkey/HSGM-5770/2020|EPI_ISL_428718|2020-03-19
+|     |     |  +**|
+|     |     |  |  |                 +**hCoV-19/USA/CT-Yale-112/2020|EPI_ISL_435708|2020-04-09
+|     |     |  |  |              +**|
+|     |     |  |  |              |  +--hCoV-19/USA/WA-UW19/2020|EPI_ISL_414367|2020-03-05
+|     |     |  |  |           +**|
+|     |     |  |  |           |  |     +**hCoV-19/USA/WA-UW124/2020|EPI_ISL_416662|2020-03-12
+|     |     |  |  |           |  |  +**|
+|     |     |  |  |           |  |  |  +--hCoV-19/USA/WA-UW270/2020|EPI_ISL_418055|2020-03-14
+|     |     |  |  |           |  +**|
+|     |     |  |  |           |     +--hCoV-19/USA/WA-UW173/2020|EPI_ISL_416711|2020-03-15
+|     |     |  |  |        +**|
+|     |     |  |  |        |  +--hCoV-19/USA/WA-UW195/2020|EPI_ISL_417344|2020-03-13
+|     |     |  |  |     +--|
+|     |     |  |  |     |  +--hCoV-19/USA/KY-9A10/2020|EPI_ISL_468064|2020-03-18
+|     |     |  |  |  +**|
+|     |     |  |  |  |  |  +--hCoV-19/Australia/VIC656/2020|EPI_ISL_426952|2020-03-28
+|     |     |  |  |  |  +**|
+|     |     |  |  |  |     |  +--hCoV-19/Nanchang/JX174/2020|EPI_ISL_421238|2020-01-29
+|     |     |  |  |  |     +**|
+|     |     |  |  |  |        |   +----BetaCoV/bat/Yunnan/RaTG13/2013|EPI_ISL_402131|2013-07-24
+|     |     |  |  |  |        +---|
+|     |     |  |  |  |            |         +-------------------------------------------BetaCoV/pangolin/Guangxi/P3B/2017|EPI_ISL_410543|2017
+|     |     |  |  |  |            +---------|
+|     |     |  |  |  |                      |              +--BetaCoV/pangolin/Guangdong/P2S/2019|EPI_ISL_410544|2019
+|     |     |  |  |  |                      +--------------|
+|     |     |  |  |  |                                     +--BetaCoV/pangolin/Guangdong/1/2019|EPI_ISL_410721|2019
+|     |     |  |  +**|
+|     |     |  |     +--hCoV-19/Australia/VIC746/2020|EPI_ISL_427024|2020-03-29
+|     |     +**|
+|     |        +--hCoV-19/Beijing/BJ709/2020|EPI_ISL_430729|2020-02-07
+|  +**|
+|  |  +--hCoV-19/Latvia/09/2020|EPI_ISL_426289|2020-03-30
++**|
+|  |  +**hCoV-19/Luxembourg/LNS9322962/2020|EPI_ISL_428961|2020-04-03
+|  +**|
+|     +--hCoV-19/United_Arab_Emirates/L1076/2020|EPI_ISL_435128|2020-03-15
+|
++**hCoV-19/England/200981386/2020|EPI_ISL_414010|2020-02-26
+
+Tree in newick format:
+
+(hCoV-19/Belgium/KA-03042/2020|EPI_ISL_417424|2020-03-04:0.0000333363,((((((((((((((((hCoV-19/Scotland/EDB1647/2020|EPI_ISL_433104|2020-04-14:0.0001350710,hCoV-19/Italy/ABR-IZSGC-TE6195/2020|EPI_ISL_420569|2020-03-23:0.0001279605):0.0000010000,hCoV-19/Jordan/SR-033/2020|EPI_ISL_429993|2020-03-16:0.0000336827):0.0000010000,hCoV-19/England/SHEF-C092F/2020|EPI_ISL_420176|2020-03-20:0.0000339358):0.0000010479,hCoV-19/England/CAMB-7AF22/2020|EPI_ISL_433895|2020-04-10:0.0002026248):0.0000010000,hCoV-19/USA/VA-DCLS-0114/2020|EPI_ISL_434605|2020-04-09:0.0001017712):0.0000010000,hCoV-19/England/CAMB-7FC26/2020|EPI_ISL_433493|2020-04-16:0.0001346449):0.0000010000,hCoV-19/Iceland/83/2020|EPI_ISL_417868|2020-03-09:0.0000332808):0.0000010000,hCoV-19/Switzerland/TI-HUG-2045/2020|EPI_ISL_415703|2020-03-01:0.0000332121):0.0000010000,((hCoV-19/Netherlands/NoordHolland_2/2020|EPI_ISL_414549|2020-03-03:0.0000330440,hCoV-19/Switzerland/GE-HUG-6414/2020|EPI_ISL_429217|2020-04-06:0.0000667286):0.0000328607,hCoV-19/Russia/StPetersburg-RII4988S/2020|EPI_ISL_430083|2020-04-10:0.0002683432):0.0000026883):0.0000010000,(hCoV-19/France/OCC-13/2020|EPI_ISL_434628|2020-04-07:0.0001680451,hCoV-19/Russia/StPetersburg-RII5017V/2020|EPI_ISL_430084|2020-04-09:0.0000332188):0.0000010000):0.0000024796,(hCoV-19/Iceland/583/2020|EPI_ISL_424603|2020-03-27:0.0000333290,hCoV-19/Kazakhstan/NCB-3/2020|EPI_ISL_435047|2020-03-25:0.0000332189):0.0000664090):0.0000994487,hCoV-19/England/201360202/2020|EPI_ISL_423239|2020-03-24:0.0000010000):0.0000010000,(((((hCoV-19/Wales/PHWC-25F44/2020|EPI_ISL_422029|2020-03-25:0.0000343382,(hCoV-19/England/20140071704/2020|EPI_ISL_423415|2020-03-29:0.0000344019,hCoV-19/Australia/NSW150/2020|EPI_ISL_427796|2020-03-19:0.0000681430):0.0000010000):0.0000343332,((hCoV-19/Iceland/401/2020|EPI_ISL_424425|2020-03-19:0.0001010962,hCoV-19/USA/TX-HMH0403/2020|EPI_ISL_434990|2020-03-31:0.0001350461):0.0000010000,hCoV-19/Iceland/208/2020|EPI_ISL_417766|2020-03-16:0.0000673916):0.0000010000):0.0000010000,((hCoV-19/France/IDF-3324/2020|EPI_ISL_421512|2020-03-23:0.0000010000,hCoV-19/France/IDF-2278/2020|EPI_ISL_416499|2020-03-11:0.0000343405):0.0000010000,hCoV-19/Australia/VIC170/2020|EPI_ISL_419867|2020-03-18:0.0000673736):0.0000342990):0.0000010000,(((((((((((((hCoV-19/Denmark/ALAB-HH87/2020|EPI_ISL_429327|2020-03-15:0.0000675131,((((hCoV-19/Spain/MD-H12-30/2020|EPI_ISL_428693|2020-03-12:0.0000011444,(hCoV-19/USA/WA-UW-4695/2020|EPI_ISL_429631|2020-04-06:0.0000010000,hCoV-19/USA/WA-UW-3941/2020|EPI_ISL_427215|2020-03-27:0.0001696672):0.0000849722):0.0000010000,hCoV-19/USA/VA-DCLS-0039/2020|EPI_ISL_420021|2020-03-22:0.0000343105):0.0000025422,hCoV-19/USA/WI-GMF-01551/2020|EPI_ISL_435398|2020-04-22:0.0002359499):0.0000010000,hCoV-19/USA/NY-PV08402/2020|EPI_ISL_421370|2020-03-16:0.0000010000):0.0000011928):0.0001489584,hCoV-19/Scotland/EDB1582/2020|EPI_ISL_433087|2020-04-13:0.0000674556):0.0000022227,(hCoV-19/Wales/PHWC-264BD/2020|EPI_ISL_422042|2020-03-28:0.0000010000,hCoV-19/Wales/PHWC-2715B/2020|EPI_ISL_422124|2020-03-29:0.0000344449):0.0001346859):0.0000019404,hCoV-19/France/BRE-2337/2020|EPI_ISL_416506|2020-03-03:0.0000010000):0.0000022875,hCoV-19/Belgium/NJC-0324126/2020|EPI_ISL_420383|2020-03-24:0.0000675043):0.0000056867,hCoV-19/USA/WI-GMF-00986/2020|EPI_ISL_426159|2020-04-06:0.0001009730):0.0000010000,hCoV-19/USA/NY-WCMP12C04P/2020|EPI_ISL_427601|2020-03-16:0.0001345192):0.0000010000,hCoV-19/USA/NY-WCMP10A02P/2020|EPI_ISL_427553|2020-03-15:0.0001681052):0.0000010000,(hCoV-19/USA/WA-UW-2119/2020|EPI_ISL_426091|2020-03-25:0.0000010000,hCoV-19/USA/WA-S559/2020|EPI_ISL_434319|2020-03-27:0.0000343444):0.0000343333):0.0000010000,((hCoV-19/Sweden/20-08172/2020|EPI_ISL_430855|2020-03-12:0.0000671881,(((((((hCoV-19/USA/WA-UW123/2020|EPI_ISL_416661|2020-03-12:0.0001577389,hCoV-19/USA/WA-UW359/2020|EPI_ISL_418926|2020-03-14:0.0000343599):0.0000024225,hCoV-19/USA/WA-UW-4227/2020|EPI_ISL_427250|2020-03-31:0.0000864045):0.0000022756,hCoV-19/USA/WA-UW-3984/2020|EPI_ISL_427225|2020-03-29:0.0000711261):0.0000524516,hCoV-19/USA/NY-Wadsworth-11190-01/2020|EPI_ISL_426324|2020-03-06:0.0000010000):0.0000045175,hCoV-19/USA/WA-UW-6173/2020|EPI_ISL_430936|2020-04-01:0.0000333351):0.0000022680,hCoV-19/USA/MD-HP00041/2020|EPI_ISL_434638|2020-03-19:0.0000344502):0.0000683876,hCoV-19/USA/AZ-TGEN-TG271870/2020|EPI_ISL_426606|2020-03-24:0.0000672356):0.0000029656):0.0000010000,hCoV-19/Taiwan/NTU09/2020|EPI_ISL_422412|2020-03-14:0.0000010000):0.0000010000):0.0000342794,((hCoV-19/England/201380028/2020|EPI_ISL_421796|2020-03-27:0.0001347628,(hCoV-19/Finland/13M33/2020|EPI_ISL_418390|2020-03-13:0.0001012814,hCoV-19/USA/VA-DCLS-0048/2020|EPI_ISL_426456|2020-03-30:0.0000674238):0.0000022415):0.0000343116,hCoV-19/Belgium/ULG-6670/2020|EPI_ISL_417018|2020-03-14:0.0001350311):0.0000028968):0.0000342838,hCoV-19/USA/NY-NYUMC411/2020|EPI_ISL_435478|2020-03-30:0.0000664146):0.0000010000,hCoV-19/USA/WA-UW120/2020|EPI_ISL_416658|2020-03-11:0.0000010000):0.0000010000):0.0000010000,(hCoV-19/Luxembourg/LNS3770609/2020|EPI_ISL_421747|2020-03-17:0.0000664763,(hCoV-19/Netherlands/NoordBrabant_70/2020|EPI_ISL_422866|2020-03-11:0.0001013395,hCoV-19/Australia/VIC1328/2020|EPI_ISL_430695|2020-04-12:0.0001346442):0.0000010000):0.0000010000):0.0000020156):0.0000029677,(((((((hCoV-19/England/NOTT-10E12C/2020|EPI_ISL_425501|2020-03-15:0.0000670316,((((hCoV-19/England/CAMB-74C8B/2020|EPI_ISL_425362|2020-03-17:0.0000675163,hCoV-19/England/SHEF-C0549/2020|EPI_ISL_420249|2020-03-26:0.0001012603):0.0000010000,hCoV-19/USA/DC-HP00022/2020|EPI_ISL_434691|2020-03-22:0.0001012935):0.0000010000,(hCoV-19/England/20134020004/2020|EPI_ISL_423108|2020-03-23:0.0000010000,hCoV-19/England/20128095504/2020|EPI_ISL_423970|2020-03-20:0.0000680437):0.0000010000):0.0000010000,(hCoV-19/England/20122088102/2020|EPI_ISL_418678|2020-03-16:0.0001687436,hCoV-19/England/20124034702/2020|EPI_ISL_418711|2020-03-16:0.0000334056):0.0000010000):0.0000328922):0.0000338228,hCoV-19/Scotland/EDB735/2020|EPI_ISL_433234|2020-04-02:0.0001011857):0.0000334810,hCoV-19/Belgium/VPE-030650/2020|EPI_ISL_418805|2020-03-06:0.0001011969):0.0000335289,(hCoV-19/France/IDF-0515/2020|EPI_ISL_408430|2020-01-29:0.0000672311,(hCoV-19/Singapore/87/2020|EPI_ISL_435692|2020-04-21:0.0003029622,hCoV-19/Thailand/Bangkok-0039/2020|EPI_ISL_429175|2020-03-28:0.0002696960):0.0000010000):0.0000026258):0.0000329794,hCoV-19/Wales/PHWC-29B79/2020|EPI_ISL_432253|2020-04-04:0.0001010749):0.0000010000,((hCoV-19/Scotland/CVR1410/2020|EPI_ISL_433574|2020-04-01:0.0001019419,hCoV-19/Netherlands/NA_137/2020|EPI_ISL_422681|2020-03-19:0.0000675124):0.0000010000,hCoV-19/Japan/KY-V-029/2020|EPI_ISL_408669|2020-01-29:0.0001345370):0.0000010000):0.0000020287,((hCoV-19/Turkey/HSGM-5770/2020|EPI_ISL_428718|2020-03-19:0.0001029207,((((((hCoV-19/USA/CT-Yale-112/2020|EPI_ISL_435708|2020-04-09:0.0000010000,hCoV-19/USA/WA-UW19/2020|EPI_ISL_414367|2020-03-05:0.0001011814):0.0000010000,((hCoV-19/USA/WA-UW124/2020|EPI_ISL_416662|2020-03-12:0.0000010000,hCoV-19/USA/WA-UW270/2020|EPI_ISL_418055|2020-03-14:0.0000678697):0.0000010000,hCoV-19/USA/WA-UW173/2020|EPI_ISL_416711|2020-03-15:0.0000333415):0.0000010000):0.0000010000,hCoV-19/USA/WA-UW195/2020|EPI_ISL_417344|2020-03-13:0.0000333415):0.0000010000,hCoV-19/USA/KY-9A10/2020|EPI_ISL_468064|2020-03-18:0.0000333415):0.0001000333,(hCoV-19/Australia/VIC656/2020|EPI_ISL_426952|2020-03-28:0.0002685139,(hCoV-19/Nanchang/JX174/2020|EPI_ISL_421238|2020-01-29:0.0000369522,(BetaCoV/bat/Yunnan/RaTG13/2013|EPI_ISL_402131|2013-07-24:0.0225956352,(BetaCoV/pangolin/Guangxi/P3B/2017|EPI_ISL_410543|2017:0.1773737622,(BetaCoV/pangolin/Guangdong/P2S/2019|EPI_ISL_410544|2019:0.0017594814,BetaCoV/pangolin/Guangdong/1/2019|EPI_ISL_410721|2019:0.0016371408):0.0633040226):0.0421765119):0.0189206875):0.0000300872):0.0000010000):0.0000010000,hCoV-19/Australia/VIC746/2020|EPI_ISL_427024|2020-03-29:0.0003378554):0.0000317837):0.0000328630,hCoV-19/Beijing/BJ709/2020|EPI_ISL_430729|2020-02-07:0.0002702300):0.0000022322):0.0001339721):0.0000330301,hCoV-19/Latvia/09/2020|EPI_ISL_426289|2020-03-30:0.0001008187):0.0000010000,(hCoV-19/Luxembourg/LNS9322962/2020|EPI_ISL_428961|2020-04-03:0.0000332582,hCoV-19/United_Arab_Emirates/L1076/2020|EPI_ISL_435128|2020-03-15:0.0001008313):0.0000332264):0.0000010000,hCoV-19/England/200981386/2020|EPI_ISL_414010|2020-02-26:0.0000333029);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t IQTREE_results/covid_100_aligned.fasta.treefile -m "GTR{1.20481,4.74236,2.40994,0.51241,10.12}+F{0.298888,0.183737,0.196272,0.321103}+G4{0.300553}" --length 29994
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s COVID_data_fasta/covid_100_aligned.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s COVID_data_fasta/covid_100_aligned.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Nov  5 13:30:59 2026
+Total CPU time used: 274.567 seconds (0h:4m:34s)
+Total wall-clock time used: 69.801 seconds (0h:1m:9s)
+

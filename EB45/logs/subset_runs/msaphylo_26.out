@@ -1,0 +1,23 @@
+Finish extracting embeddings from layer 2.
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 120, in <module>
+    main()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 116, in main
+    embtree.build_emb_tree()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 68, in build_emb_tree
+    with open(phylo_path, "w") as file:
+FileNotFoundError: [Errno 2] No such file or directory: './EB45_embedding_trees_26/EB45_26_2.nwk'
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/EB45_msas_26
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/EB45_attention_trees_26
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running EB45_supermatrix_26
+MSA file: data/EB45_msas_26/EB45_supermatrix_26.fasta
+================================================================================
+Column attention saved in output file: Attentions/EB45_26/EB45_supermatrix_26_attn_esm_msa1b_t12_100M_UR50S.pt
+Finished EB45_supermatrix_26
+
+All finished. Failed: 0 []

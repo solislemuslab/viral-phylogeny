@@ -1,0 +1,2 @@
+OG1 = 1-211 # EB_PF00227_6.fasta
+OG2 = 212-520 # EB_PF06472_1.fasta

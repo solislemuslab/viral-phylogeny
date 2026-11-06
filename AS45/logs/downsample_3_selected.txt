@@ -1,0 +1,3 @@
+AS_PF00069_36.fasta
+AS_PF00291_3.fasta
+AS_PF12842_1.fasta

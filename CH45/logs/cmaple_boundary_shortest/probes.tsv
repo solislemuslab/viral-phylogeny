@@ -1,0 +1,6 @@
+n_loci	columns	success	seconds	error
+3	65	True	3	
+10	244	True	24	
+32	996	True	109	
+102	4257	True	320	
+324	19421	True	1851	

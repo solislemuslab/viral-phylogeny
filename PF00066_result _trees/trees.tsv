@@ -1,0 +1,6 @@
+file	method	reference
+PF00066_IQTree.treefile	IQ-TREE	yes
+PF00066_CMAPLE.nwk	CMAPLE	no
+PF00066_Phyloformer.nwk	Phyloformer	no
+PF00066_MSATransformer_EmbeddingTree.nwk	MSA-T embedding	no
+PF00066_0_4_MSATransfomer_AttentionTree.nwk	MSA-T attention	no

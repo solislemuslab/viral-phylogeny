@@ -1,0 +1,35 @@
+Fri Oct 30 08:19:29 CDT 2026 start N=700
+Fri Oct 30 08:34:00 CDT 2026 Phyloformer FAILED at N=700: allocate 292039464960 bytes
+Fri Oct 30 08:34:01 CDT 2026 start N=600
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CH45_600_result_trees
+  MISSING CH45_supermatrix_600_IQTree.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/IQTREE_results/CH45_supermatrix_600.treefile)
+  ok      CH45_supermatrix_600_Phyloformer.nwk
+  MISSING CH45_supermatrix_600_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/CH45_supermatrix_600.treefile)
+  MISSING CH45_600_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_embedding_trees_600/CH45_600_2.nwk)
+  MISSING CH45_supermatrix_600_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees_600/CH45_supermatrix_600/CH45_supermatrix_600_0_4.nwk)
+Fri Oct 30 11:17:39 CDT 2026 Phyloformer tree done at N=600 (139349 columns): CH45_600_result_trees/
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CH45_600_result_trees
+  ok      CH45_supermatrix_600_IQTree.treefile
+  ok      CH45_supermatrix_600_Phyloformer.nwk
+  MISSING CH45_supermatrix_600_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/CH45_supermatrix_600.treefile)
+  MISSING CH45_600_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_embedding_trees_600/CH45_600_2.nwk)
+  MISSING CH45_supermatrix_600_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees_600/CH45_supermatrix_600/CH45_supermatrix_600_0_4.nwk)
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Comparison/compare_simple_CH_600.R
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/PhyloBench_boundaries_summary.xlsx
+Sat Oct 31 06:34:22 CDT 2026 all done: Comparison/figures_R/compare_simple_CH_600.pdf (Quartets resolved identically by all trees: 345989 (71.0%))
+Fri Nov  6 00:49:13 CST 2026 start N=604, Phyloformer tree reused from the boundary probe
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CH45_604_result_trees
+  MISSING CH45_supermatrix_604_IQTree.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/IQTREE_results/CH45_supermatrix_604.treefile)
+  ok      CH45_supermatrix_604_Phyloformer.nwk
+  MISSING CH45_supermatrix_604_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/CH45_supermatrix_604.treefile)
+  MISSING CH45_604_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_embedding_trees_604/CH45_604_2.nwk)
+  MISSING CH45_supermatrix_604_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees_604/CH45_supermatrix_604/CH45_supermatrix_604_0_4.nwk)
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CH45_604_result_trees
+  ok      CH45_supermatrix_604_IQTree.treefile
+  ok      CH45_supermatrix_604_Phyloformer.nwk
+  MISSING CH45_supermatrix_604_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/CH45_supermatrix_604.treefile)
+  MISSING CH45_604_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_embedding_trees_604/CH45_604_2.nwk)
+  MISSING CH45_supermatrix_604_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees_604/CH45_supermatrix_604/CH45_supermatrix_604_0_4.nwk)
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Comparison/compare_simple_CH_604.R
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/PhyloBench_boundaries_summary.xlsx
+Fri Nov  6 06:35:00 CST 2026 all done: Comparison/figures_R/compare_simple_CH_604.pdf (Quartets resolved identically by all trees: 339419 (69.6%))

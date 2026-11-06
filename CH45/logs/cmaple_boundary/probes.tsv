@@ -1,0 +1,25 @@
+n_loci	columns	success	seconds	error
+3	479	True	10	
+10	4128	True	423	
+32	8604	True	861	
+102	26337	True	2893	
+324	75520	False	2523	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+1029	238052	False	6062	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+120	29795	True	2486	
+142	35141	True	2911	
+167	40370	True	3648	
+197	46871	False	3272	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+233	55191	False	1199	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+275	63652	True	7382	
+282	64826	False	2956	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+288	66421	True	6906	
+295	68361	False	3123	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+302	70033	True	8135	
+309	71906	False	2441	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+316	74000	False	2519	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+303	70327	True	6746	
+304	70578	True	7356	
+305	70609	True	6479	
+306	70976	True	6075	
+307	71348	True	5729	
+308	71710	False	2161	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file

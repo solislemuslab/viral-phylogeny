@@ -1,0 +1,9 @@
+n_loci	columns	success	seconds	peak_GB	error
+650	150721	False	236	639	RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+620	143383	False	228	608	RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+610	141327	False	225	599	RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+n_loci	columns	success	seconds	peak_GB	error
+605	140259	False	221	594	RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+602	139769	True	5419	769	
+603	140009	True	5297	771	
+604	140147	True	5477	771	

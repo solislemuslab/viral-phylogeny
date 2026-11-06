@@ -1,0 +1,17 @@
+N=115 cols=25638 success=False 1033s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=136 cols=29968 success=False 1654s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=160 cols=34553 success=False 482s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=188 cols=40009 success=False 923s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=221 cols=45854 success=False 672s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=260 cols=55592 success=False 755s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=100 cols=22197 success=True 2803s 
+N=103 cols=22990 success=False 874s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=105 cols=23642 success=False 616s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=107 cols=24323 success=False 1354s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=110 cols=24825 success=False 355s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=112 cols=25331 success=True 2737s 
+N=113 cols=25429 success=True 2769s 
+N=114 cols=25542 success=False 694s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+largest success: 113 loci (25429 columns)
+smallest failure above it: 114 loci
+

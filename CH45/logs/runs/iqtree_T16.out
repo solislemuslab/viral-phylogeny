@@ -1,0 +1,108 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/home/jgao/.conda/envs/iq_tree/bin/iqtree2 -s CH45_supermatrix_800.fasta -m MFP -T 16 -B 1000 -alrt 1000 --prefix CH45_supermatrix_800
+Seed:    469777 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 22 20:54:40 2026
+Kernel:  AVX+FMA - 16 threads (72 CPU cores detected)
+
+Reading alignment file CH45_supermatrix_800.fasta ... Fasta format detected
+Reading fasta file: done in 0.205537 secs using 81.83% CPU
+Alignment most likely contains protein sequences
+WARNING: 94 sites contain only gaps or ambiguous characters.
+Alignment has 60 sequences with 183954 columns, 139294 distinct patterns
+84857 parsimony-informative, 31914 singleton sites, 67183 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0755466 secs using 880.6% CPU
+   1  ALLSI   26.55%    failed      0.00%
+   2  AMPCI   28.52%    failed      0.01%
+   3  AMPPE   26.66%    failed      0.00%
+   4  ANAPP   30.63%    failed      0.00%
+   5  ANATE   26.18%    failed      0.00%
+   6  AOTNA   41.68%    passed     18.66%
+   7  ASTMX   24.43%    failed      0.00%
+   8  BALAS   44.02%    passed      5.06%
+   9  CALJA   40.01%    failed      2.13%
+  10  CAPHI   31.38%    failed      0.10%
+  11  CAVPO   26.87%    passed      8.29%
+  12  CERAT   44.15%    passed     31.28%
+  13  CHICK   28.67%    failed      0.00%
+  14  CHIPU   30.60%    failed      0.00%
+  15  CYNSE   26.39%    failed      0.00%
+  16  CYPVA   25.33%    failed      0.91%
+  17  DANRE   27.05%    failed      0.01%
+  18  DELLE   54.25%    failed      1.96%
+  19  DIPOR   29.42%    passed      7.61%
+  20  ENHLU   36.38%    passed     49.26%
+  21  ERIEU   27.65%    failed      0.57%
+  22  ESOLU   24.94%    failed      0.00%
+  23  FELCA   40.53%    passed     12.68%
+  24  HETGA   34.82%    passed     27.94%
+  25  HORSE   34.03%    passed     66.46%
+  26  HUMAN   44.85%    passed     12.73%
+  27  ICTPU   25.29%    failed      0.00%
+  28  ICTTR   32.45%    failed      0.48%
+  29  KRYMA   23.68%    failed      0.00%
+  30  LEPOC   26.70%    failed      1.37%
+  31  LEPWE   43.00%    passed     69.32%
+  32  LIPVE   48.99%    failed      0.10%
+  33  LOXAF   27.85%    passed     11.34%
+  34  MESAU   27.46%    passed     34.49%
+  35  MOLML   26.18%    failed      0.00%
+  36  MONDO   25.96%    failed      0.00%
+  37  MOUSE   28.15%    passed     37.12%
+  38  MYOLU   29.48%    failed      1.18%
+  39  NOMLE   43.64%    passed     27.46%
+  40  ODORO   41.50%    failed      0.73%
+  41  ORYME   27.09%    failed      0.00%
+  42  OTOGA   30.79%    passed     41.65%
+  43  PATFA   30.33%    failed      0.00%
+  44  PHYMC   43.27%    failed      1.57%
+  45  PIG     34.12%    failed      0.58%
+  46  PROCO   35.31%    passed     17.23%
+  47  PTEAL   32.20%    passed     20.28%
+  48  PYGNA   26.09%    failed      0.02%
+  49  RABIT   30.35%    failed      0.05%
+  50  SALSA   24.88%    failed      0.00%
+  51  SERDU   27.47%    failed      0.00%
+  52  TAEGU   27.18%    failed      0.00%
+  53  TAKRU   26.55%    failed      0.00%
+  54  TARSY   31.95%    passed     84.13%
+  55  TRIMA   29.27%    passed     52.06%
+  56  TURTR   52.24%    failed      0.64%
+  57  URSAR   43.71%    passed      6.80%
+  58  VULVU   39.81%    passed     38.79%
+  59  XENLA   26.79%    failed      0.00%
+  60  XIPMA   24.71%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL   32.51%  38 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000543614 for long alignment
+
+NOTE: Restoring information from model checkpoint file CH45_supermatrix_800.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3868430.367
+2. Current log-likelihood: -3868425.382
+3. Current log-likelihood: -3868423.962
+Optimal log-likelihood: -3868422.863
+Proportion of invariable sites: 0.196
+Gamma shape alpha: 0.810
+Parameters optimization took 3 rounds (37.005 sec)
+Time for fast ML tree search: 269.983 seconds
+
+NOTE: ModelFinder requires 13445 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 183954 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            4129025.873  117 8258285.746  8258285.897  8259470.072
+  2  LG+I          3989497.764  118 7979231.528  7979231.681  7980425.976
+  3  LG+G4         3871879.351  118 7743994.703  7743994.856  7745189.151
+  4  LG+I+G4       3868421.032  119 7737080.063  7737080.219  7738284.634
+  5  LG+R2         3899847.770  119 7799933.541  7799933.696  7801138.111
+  6  LG+R3         3868371.770  121 7736985.540  7736985.701  7738210.356
+  7  LG+R4         3862949.949  123 7726145.899  7726146.065  7727390.959

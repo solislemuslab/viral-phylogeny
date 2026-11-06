@@ -1,0 +1,112 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/home/jgao/.conda/envs/iq_tree/bin/iqtree2 -s AG45_supermatrix.fasta -m MFP -T AUTO -B 1000 -alrt 1000 --prefix AG45_supermatrix
+Seed:    72740 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 16 07:26:55 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file AG45_supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.0691957 secs using 87.07% CPU
+Alignment most likely contains protein sequences
+Alignment has 60 sequences with 60174 columns, 55081 distinct patterns
+45420 parsimony-informative, 6042 singleton sites, 8712 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0700543 secs using 1382% CPU
+   1  ACIHW   36.22%    failed      0.00%
+   2  AERPE   33.93%    failed      0.00%
+   3  ARCVS   37.31%    failed      0.00%
+   4  CALMQ   33.59%    failed      0.00%
+   5  FERAC   37.66%    failed      0.00%
+   6  FERPA   34.43%    failed      0.00%
+   7  HALBP   36.27%    failed      0.00%
+   8  HALJB   36.15%    failed      0.00%
+   9  HALMA   35.52%    failed      0.00%
+  10  HALMD   37.74%    failed      0.00%
+  11  HALMO   36.83%    failed      0.00%
+  12  HALMT   44.30%    failed      0.00%
+  13  HALRX   37.93%    failed      0.00%
+  14  HALSA   39.88%    failed      0.00%
+  15  HALTV   61.19%    failed      0.00%
+  16  HALVU   39.91%    failed      0.00%
+  17  HALWD   40.69%    failed      0.00%
+  18  HALXS   45.43%    failed      0.00%
+  19  IGNAA   36.29%    failed      0.00%
+  20  IGNH4   37.49%    failed      0.00%
+  21  META3   34.29%    failed      0.00%
+  22  METAC   38.57%    failed      0.00%
+  23  METBM   41.31%    failed      0.00%
+  24  METBU   34.94%    failed      0.00%
+  25  METEZ   37.68%    failed      0.00%
+  26  METFS   33.45%    failed      0.00%
+  27  METFV   39.73%    failed      0.00%
+  28  METH6   34.80%    failed      0.00%
+  29  METHD   36.40%    failed      0.00%
+  30  METHJ   40.24%    failed      0.00%
+  31  METIK   39.01%    failed      0.00%
+  32  METJA   33.59%    failed      0.00%
+  33  METKA   33.87%    failed      0.00%
+  34  METLA   37.10%    failed      0.00%
+  35  METLZ   34.49%    failed      0.00%
+  36  METMS   34.70%    failed      0.00%
+  37  METP4   37.24%    failed      0.00%
+  38  METPE   39.18%    failed      0.00%
+  39  METPS   37.44%    failed      0.00%
+  40  METRM   39.18%    failed      0.00%
+  41  METS5   36.19%    failed      0.00%
+  42  METTH   36.80%    failed      0.00%
+  43  METTI   38.23%    failed      0.00%
+  44  METZD   37.76%    failed      0.00%
+  45  NATGS   44.98%    failed      0.00%
+  46  NATM8   34.54%    failed      0.00%
+  47  NATMM   40.08%    failed      0.00%
+  48  NATP1   60.25%    failed      0.00%
+  49  NITGG   30.47%    failed      0.00%
+  50  PYRAE   34.90%    failed      0.00%
+  51  PYRF1   34.36%    failed      0.00%
+  52  PYRFU   41.81%    failed      0.00%
+  53  PYROC   35.83%    failed      0.00%
+  54  SACS2   33.76%    failed      0.00%
+  55  SULAC   34.34%    failed      0.00%
+  56  SULTO   35.29%    failed      0.00%
+  57  THEKO   36.62%    failed      0.00%
+  58  THETK   33.02%    failed      0.00%
+  59  THEXX   37.76%    failed      0.00%
+  60  VULDI   39.16%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL   37.87%  60 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.625 seconds
+Measuring multi-threading efficiency up to 72 CPU cores
+3 trees examined
+Threads: 1 / Time: 91.955 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3664687
+Threads: 2 / Time: 64.221 sec / Speedup: 1.432 / Efficiency: 72% / LogL: -3664687
+Threads: 3 / Time: 75.666 sec / Speedup: 1.215 / Efficiency: 41% / LogL: -3664687
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2931458.026
+Optimal log-likelihood: -2931457.796
+Proportion of invariable sites: 0.063
+Gamma shape alpha: 1.202
+Parameters optimization took 1 rounds (64.088 sec)
+Time for fast ML tree search: 602.119 seconds
+
+NOTE: ModelFinder requires 5318 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 60174 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            3086410.753  117 6173055.506  6173055.966  6174109.090
+  2  LG+I          3045365.754  118 6090967.508  6090967.976  6092030.098
+  3  LG+G4         2934139.743  118 5868515.487  5868515.954  5869578.076
+  4  LG+I+G4       2931457.784  119 5863153.568  5863154.043  5864225.162
+  5  LG+R2         2963429.018  119 5927096.037  5927096.512  5928167.631
+  6  LG+R3         2937887.782  121 5876017.564  5876018.056  5877107.169
+  7  LG+R4         2931546.626  123 5863339.251  5863339.759  5864446.866
+  8  LG+R5         2929772.469  125 5859794.938  5859795.463  5860920.563
+  9  LG+R6         2929335.520  127 5858925.041  5858925.582  5860068.675

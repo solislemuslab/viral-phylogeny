@@ -1,0 +1,80 @@
+
+ - FastME 2.1.6.4 - 
+
+
+Papers to be cited:
+
+FastME 2.0 - A comprehensive, accurate and fast distance-based phylogeny inference program.
+	Vincent Lefort, Richard Desper and Olivier Gascuel,
+	Molecular Biology and Evolution 32(10), 2798-800, 2015.
+BIONJ algorithm:
+	Gascuel O. 1997. BIONJ: an improved version of the NJ algorithm based on a simple model of sequence data.
+	Molecular Biology and Evolution, 14(7):685-695
+
+-------------------------------------------------------------------------------
+Settings for this run:
+
+  I                                      Input data type  Matrix          
+  D                                   Number of datasets  1               
+  M                         Initial tree building method  BIONJ           
+  N                                   NNI postprocessing  NNI_BalME       
+  S                                   SPR postprocessing  yes             
+
+-------------------------------------------------------------------------------
+Dataset 1
+	Two tree searches are performed, with NNIs and SPRs respectively.
+	The resulting tree is the best (shortest) of both.
+
+	Tree length is 80.56212125
+	Before NNI:     tree length is 80.63793016
+	NNI      1: new tree length is 80.61727500
+	NNI      2: new tree length is 80.59169641
+	NNI      3: new tree length is 80.58126717
+	NNI      4: new tree length is 80.57503086
+	NNI      5: new tree length is 80.56960877
+	NNI      6: new tree length is 80.56901185
+	NNI      7: new tree length is 80.56867229
+	NNI      8: new tree length is 80.56774069
+	NNI      9: new tree length is 80.56398918
+	NNI     10: new tree length is 80.56364355
+	NNI     11: new tree length is 80.56183578
+	NNI     12: new tree length is 80.55757286
+	NNI     13: new tree length is 80.55031263
+	NNI     14: new tree length is 80.54827464
+	NNI     15: new tree length is 80.54325796
+	NNI     16: new tree length is 80.54251867
+	NNI     17: new tree length is 80.53878393
+	NNI     18: new tree length is 80.53047925
+	NNI     19: new tree length is 80.52950901
+	NNI     20: new tree length is 80.52810038
+	NNI     21: new tree length is 80.52686130
+	NNI     22: new tree length is 80.52619207
+	NNI     23: new tree length is 80.52487555
+	NNI     24: new tree length is 80.52129102
+	NNI     25: new tree length is 80.51615035
+	NNI     26: new tree length is 80.51473971
+	NNI     27: new tree length is 80.51319536
+	NNI     28: new tree length is 80.51267090
+	Performed 28 NNI(s).
+
+	Assign BME weights and re-weight tree.
+	Before SPR:     tree length is 80.63793016
+	SPR      1: new tree length is 80.59169641
+	SPR      2: new tree length is 80.56991984
+	SPR      3: new tree length is 80.55164863
+	SPR      4: new tree length is 80.54499356
+	SPR      5: new tree length is 80.53913881
+	SPR      6: new tree length is 80.53298556
+	SPR      7: new tree length is 80.52673402
+	SPR      8: new tree length is 80.52042995
+	SPR      9: new tree length is 80.51668586
+	SPR     10: new tree length is 80.51440947
+	SPR     11: new tree length is 80.50039510
+	SPR     12: new tree length is 80.49319754
+	SPR     13: new tree length is 80.49026965
+	SPR     14: new tree length is 80.48177986
+	SPR     15: new tree length is 80.48050546
+	SPR     16: new tree length is 80.47935612
+	Performed 16 SPR(s).
+
+	Explained variance : 0.97436502

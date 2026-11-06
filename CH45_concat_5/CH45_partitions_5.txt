@@ -1,0 +1,5 @@
+OG1 = 1-276 # CH_PF00029_3.fasta
+OG2 = 277-370 # CH_PF00207_1.fasta
+OG3 = 371-645 # CH_PF01256_1.fasta
+OG4 = 646-754 # CH_PF12140_2.fasta
+OG5 = 755-937 # CH_PF15996_1.fasta

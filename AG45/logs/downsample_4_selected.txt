@@ -1,0 +1,4 @@
+AG_PF00117_2.fasta
+AG_PF00333_1.fasta
+AG_PF01000_1.fasta
+AG_PF01180_1.fasta

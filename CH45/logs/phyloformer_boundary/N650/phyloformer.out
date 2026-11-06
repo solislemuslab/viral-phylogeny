@@ -1,0 +1,24 @@
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [03:49<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/infer_alns.py", line 112, in <module>
+    preds = model(aln[None, :].to(device).float())
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/phyloformer/model.py", line 179, in forward
+    out = block(out)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/phyloformer/model.py", line 103, in forward
+    out = self.ffn(out)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 273178798080 bytes. Error code 12 (Cannot allocate memory)
+PEAK_KB 669654768

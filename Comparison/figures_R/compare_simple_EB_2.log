@@ -1,0 +1,71 @@
+Loading required package: maps
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Some trees are not binary. Result may not what you expect!
+                IQ-TREE Phyloformer CMAPLE MSA-T attention MSA-T embedding
+IQ-TREE           0.000       0.927  0.670           0.891           0.909
+Phyloformer       0.927       0.000  0.927           0.600           0.418
+CMAPLE            0.670       0.927  0.000           0.927           0.890
+MSA-T attention   0.891       0.600  0.927           0.000           0.636
+MSA-T embedding   0.909       0.418  0.890           0.636           0.000
+EB-astral         0.818       0.909  0.853           0.909           0.927
+EB-ncbi-astral    0.800       0.909  0.835           0.909           0.927
+EB-ncbi           0.785       0.957  0.826           0.957           0.957
+                EB-astral EB-ncbi-astral EB-ncbi
+IQ-TREE             0.818          0.800   0.785
+Phyloformer         0.909          0.909   0.957
+CMAPLE              0.853          0.835   0.826
+MSA-T attention     0.909          0.909   0.957
+MSA-T embedding     0.927          0.927   0.957
+EB-astral           0.000          0.200   0.398
+EB-ncbi-astral      0.200          0.000   0.183
+EB-ncbi             0.398          0.183   0.000
+
+Quartets: 424270 
+Share of quartets resolved in each tree (polytomies lower this):
+        IQ-TREE     Phyloformer          CMAPLE MSA-T attention MSA-T embedding 
+          1.000           1.000           1.000           1.000           1.000 
+      EB-astral  EB-ncbi-astral         EB-ncbi 
+          1.000           1.000           0.914 
+
+Quartet distance (1 - agreement on quartets resolved in both trees):
+                IQ-TREE Phyloformer CMAPLE MSA-T attention MSA-T embedding
+IQ-TREE           0.000       0.518  0.246           0.366           0.505
+Phyloformer       0.518       0.000  0.502           0.405           0.278
+CMAPLE            0.246       0.502  0.000           0.292           0.499
+MSA-T attention   0.366       0.405  0.292           0.000           0.427
+MSA-T embedding   0.505       0.278  0.499           0.427           0.000
+EB-astral         0.403       0.585  0.473           0.553           0.608
+EB-ncbi-astral    0.399       0.586  0.472           0.554           0.610
+EB-ncbi           0.383       0.579  0.458           0.542           0.603
+                EB-astral EB-ncbi-astral EB-ncbi
+IQ-TREE             0.403          0.399   0.383
+Phyloformer         0.585          0.586   0.579
+CMAPLE              0.473          0.472   0.458
+MSA-T attention     0.553          0.554   0.542
+MSA-T embedding     0.608          0.610   0.603
+EB-astral           0.000          0.012   0.013
+EB-ncbi-astral      0.012          0.000   0.000
+EB-ncbi             0.013          0.000   0.000
+
+Quartets resolved identically by all trees: 81785 (19.3%)
+
+Share of IQ-TREE clades recovered by each tree:
+    Phyloformer          CMAPLE MSA-T attention MSA-T embedding       EB-astral 
+          0.105           0.351           0.140           0.123           0.211 
+ EB-ncbi-astral         EB-ncbi 
+          0.228           0.211 
+null device 
+          1 

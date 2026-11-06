@@ -1,0 +1,37 @@
+Loading required package: maps
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Some trees are not binary. Result may not what you expect!
+               IQ-TREE Phyloformer AG-astral AG-ncbi-astral AG-ncbi
+IQ-TREE          0.000       0.526     0.211          0.263   0.488
+Phyloformer      0.526       0.000     0.509          0.509   0.558
+AG-astral        0.211       0.509     0.000          0.105   0.419
+AG-ncbi-astral   0.263       0.509     0.105          0.000   0.326
+AG-ncbi          0.488       0.558     0.419          0.326   0.000
+
+Quartets: 487635 
+Share of quartets resolved in each tree (polytomies lower this):
+       IQ-TREE    Phyloformer      AG-astral AG-ncbi-astral        AG-ncbi 
+         1.000          1.000          1.000          1.000          0.885 
+
+Quartet distance (1 - agreement on quartets resolved in both trees):
+               IQ-TREE Phyloformer AG-astral AG-ncbi-astral AG-ncbi
+IQ-TREE          0.000       0.143     0.087          0.085   0.070
+Phyloformer      0.143       0.000     0.097          0.092   0.042
+AG-astral        0.087       0.097     0.000          0.007   0.008
+AG-ncbi-astral   0.085       0.092     0.007          0.000   0.000
+AG-ncbi          0.070       0.042     0.008          0.000   0.000
+
+Quartets resolved identically by all trees: 382799 (78.5%)
+
+Share of IQ-TREE clades recovered by each tree:
+   Phyloformer      AG-astral AG-ncbi-astral        AG-ncbi 
+         0.492          0.797          0.746          0.407 
+null device 
+          1 

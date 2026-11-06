@@ -1,0 +1,11 @@
+Found 3026 locus files
+Copied 3 files to /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/AS45_cleaned_3
+Number of alignments: 3
+Number of unique taxa across all alignments: 59
+{'n_alignments': 3, 'n_taxa_union': 59, 'supermatrix_length': 828, 'output': '/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/AS45_concat_3/AS45_supermatrix_3.fasta'}
+Wrote AS45_concat_3/AS45_supermatrix_3.fasta
+Wrote AS45_concat_3/AS45_partitions_3.txt
+Wrote logs/taxon_presence_counts_3.tsv
+ALL DONE
+AS45/run_as45_subset.sh: line 28: syntax error near unexpected token `)'
+AS45/run_as45_subset.sh: line 28: `_concat_matrices_$N/$S.phy -o data/testdata/as45_concat_matrices_$N/$S.nwk --nni --spr ) > $LOG/phyloformer.out 2>&1 &'

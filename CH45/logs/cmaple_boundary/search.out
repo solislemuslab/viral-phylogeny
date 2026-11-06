@@ -1,0 +1,27 @@
+N=3 cols=479 success=True 10s 
+N=10 cols=4128 success=True 423s 
+N=32 cols=8604 success=True 861s 
+N=102 cols=26337 success=True 2893s 
+N=324 cols=75520 success=False 2523s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=1029 cols=238052 success=False 6062s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=120 cols=29795 success=True 2486s 
+N=142 cols=35141 success=True 2911s 
+N=167 cols=40370 success=True 3648s 
+N=197 cols=46871 success=False 3272s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=233 cols=55191 success=False 1199s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=275 cols=63652 success=True 7382s 
+N=282 cols=64826 success=False 2956s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=288 cols=66421 success=True 6906s 
+N=295 cols=68361 success=False 3123s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=302 cols=70033 success=True 8135s 
+N=309 cols=71906 success=False 2441s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=316 cols=74000 success=False 2519s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+N=303 cols=70327 success=True 6746s 
+N=304 cols=70578 success=True 7356s 
+N=305 cols=70609 success=True 6479s 
+N=306 cols=70976 success=True 6075s 
+N=307 cols=71348 success=True 5729s 
+N=308 cols=71710 success=False 2161s ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+largest success: 307 loci (71348 columns)
+smallest failure above it: 308 loci
+

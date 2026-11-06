@@ -1,0 +1,5 @@
+CH_PF00029_3.fasta
+CH_PF00207_1.fasta
+CH_PF01256_1.fasta
+CH_PF12140_2.fasta
+CH_PF15996_1.fasta

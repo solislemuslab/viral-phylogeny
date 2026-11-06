@@ -1,0 +1,9 @@
+Found 603 locus files
+Copied 14 files to /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_cleaned_14
+Number of alignments: 14
+Number of unique taxa across all alignments: 60
+{'n_alignments': 14, 'n_taxa_union': 60, 'supermatrix_length': 2550, 'output': '/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat_14/OB45_supermatrix_14.fasta'}
+Wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat_14/OB45_supermatrix_14.fasta
+Wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45_concat_14/OB45_partitions_14.txt
+Wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/OB45/logs/taxon_presence_counts_14.tsv
+ALL DONE

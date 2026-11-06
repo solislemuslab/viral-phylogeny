@@ -1,0 +1,18 @@
+Fri Oct 30 08:18:44 CDT 2026 start N=700
+Fri Oct 30 08:26:45 CDT 2026 Phyloformer FAILED at N=700: allocate 291214786560 bytes
+Fri Oct 30 08:27:06 CDT 2026 start N=693, Phyloformer tree reused from the boundary probe
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/AS45_693_result_trees
+  MISSING AS45_supermatrix_693_IQTree.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/IQTREE_results/AS45_supermatrix_693.treefile)
+  ok      AS45_supermatrix_693_Phyloformer.nwk
+  MISSING AS45_supermatrix_693_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/AS45_supermatrix_693.treefile)
+  MISSING AS45_693_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AS45_embedding_trees_693/AS45_693_2.nwk)
+  MISSING AS45_supermatrix_693_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AS45_attention_trees_693/AS45_supermatrix_693/AS45_supermatrix_693_0_4.nwk)
+== /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/AS45_693_result_trees
+  ok      AS45_supermatrix_693_IQTree.treefile
+  ok      AS45_supermatrix_693_Phyloformer.nwk
+  MISSING AS45_supermatrix_693_CMAPLE.treefile  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/CMAPLE_results/AS45_supermatrix_693.treefile)
+  MISSING AS45_693_2_embedding_tree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AS45_embedding_trees_693/AS45_693_2.nwk)
+  MISSING AS45_supermatrix_693_0_4_MSATransformer_AttentionTree.nwk  (/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/AS45_attention_trees_693/AS45_supermatrix_693/AS45_supermatrix_693_0_4.nwk)
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Comparison/compare_simple_AS_693.R
+wrote /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/PhyloBench_boundaries_summary.xlsx
+Sat Oct 31 01:08:37 CDT 2026 all done: Comparison/figures_R/compare_simple_AS_693.pdf (Quartets resolved identically by all trees: 204986 (42.0%))

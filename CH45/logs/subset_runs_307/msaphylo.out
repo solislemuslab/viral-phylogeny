@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 120, in <module>
+    main()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 116, in main
+    embtree.build_emb_tree()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 61, in build_emb_tree
+    plm_embedding = self.get_embedding()
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/MsaPhylo.py", line 46, in get_embedding
+    raise ValueError("It exceeds the capacity of the MSA transformer!")
+ValueError: It exceeds the capacity of the MSA transformer!
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/CH45_msas_307
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/CH45_attention_trees_307
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running CH45_supermatrix_307
+MSA file: data/CH45_msas_307/CH45_supermatrix_307.fasta
+================================================================================
+Failed CH45_supermatrix_307
+Error: Sequence length 71349 above maximum  sequence length of 1024
+
+All finished. Failed: 1 ['CH45_supermatrix_307']

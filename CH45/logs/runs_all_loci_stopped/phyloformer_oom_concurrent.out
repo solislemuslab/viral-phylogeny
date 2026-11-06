@@ -1,0 +1,9 @@
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [00:26<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/infer_alns.py", line 112, in <module>
+    preds = model(aln[None, :].to(device).float())
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/phyloformer/model.py", line 175, in forward
+    out = torch.matmul(self.seq2pair, out.transpose(-1, -2))
+RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 332350379520 bytes. Error code 12 (Cannot allocate memory)

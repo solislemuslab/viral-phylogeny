@@ -1,0 +1,43 @@
+Loading required package: maps
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Rotating nodes to optimize matching...
+Done.
+Some trees are not binary. Result may not what you expect!
+               IQ-TREE Phyloformer CMAPLE EB-astral EB-ncbi-astral EB-ncbi
+IQ-TREE          0.000           1  0.316     0.526          0.509   0.526
+Phyloformer      1.000           0  1.000     1.000          1.000   1.000
+CMAPLE           0.316           1  0.000     0.561          0.526   0.505
+EB-astral        0.526           1  0.561     0.000          0.193   0.381
+EB-ncbi-astral   0.509           1  0.526     0.193          0.000   0.175
+EB-ncbi          0.526           1  0.505     0.381          0.175   0.000
+
+Quartets: 487635 
+Share of quartets resolved in each tree (polytomies lower this):
+       IQ-TREE    Phyloformer         CMAPLE      EB-astral EB-ncbi-astral 
+         1.000          1.000          1.000          1.000          1.000 
+       EB-ncbi 
+         0.918 
+
+Quartet distance (1 - agreement on quartets resolved in both trees):
+               IQ-TREE Phyloformer CMAPLE EB-astral EB-ncbi-astral EB-ncbi
+IQ-TREE          0.000       0.565  0.089     0.057          0.056   0.043
+Phyloformer      0.565       0.000  0.555     0.563          0.562   0.561
+CMAPLE           0.089       0.555  0.000     0.109          0.106   0.075
+EB-astral        0.057       0.563  0.109     0.000          0.012   0.012
+EB-ncbi-astral   0.056       0.562  0.106     0.012          0.000   0.000
+EB-ncbi          0.043       0.561  0.075     0.012          0.000   0.000
+
+Quartets resolved identically by all trees: 183764 (37.7%)
+
+Share of IQ-TREE clades recovered by each tree:
+   Phyloformer         CMAPLE      EB-astral EB-ncbi-astral        EB-ncbi 
+         0.034          0.695          0.492          0.508          0.424 
+null device 
+          1 

@@ -1,0 +1,3 @@
+OG1 = 1-373 # AS_PF00069_36.fasta
+OG2 = 374-684 # AS_PF00291_3.fasta
+OG3 = 685-828 # AS_PF12842_1.fasta

@@ -1,0 +1,16 @@
+Finish extracting embeddings from layer 2.
+Finish building embedding trees from layer 2.
+================================================================================
+Input directory:  /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/data/OB45_msas_short_20
+Output directory: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/MsaPhylo/OB45_attention_trees_short_20
+Found 1 MSA files
+================================================================================
+
+================================================================================
+[1/1] Running OB45_supermatrix_short_20
+MSA file: data/OB45_msas_short_20/OB45_supermatrix_short_20.fasta
+================================================================================
+Column attention saved in output file: Attentions/OB45_short_20/OB45_supermatrix_short_20_attn_esm_msa1b_t12_100M_UR50S.pt
+Finished OB45_supermatrix_short_20
+
+All finished. Failed: 0 []

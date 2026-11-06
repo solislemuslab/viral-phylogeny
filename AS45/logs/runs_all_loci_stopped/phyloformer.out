@@ -1,0 +1,19 @@
+  0%|          | 0/1 [00:00<?, ?it/s]  0%|          | 0/1 [05:59<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/infer_alns.py", line 112, in <module>
+    preds = model(aln[None, :].to(device).float())
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/phyloformer/model.py", line 179, in forward
+    out = block(out)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/Phyloformer/phyloformer/model.py", line 90, in forward
+    out = self.row_norm(input.transpose(-1, -3)).transpose(-1, -3)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/modules/normalization.py", line 190, in forward
+    return F.layer_norm(
+  File "/mnt/home/jgao/.conda/envs/phylo/lib/python3.9/site-packages/torch/nn/functional.py", line 2515, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 329773486080 bytes. Error code 12 (Cannot allocate memory)

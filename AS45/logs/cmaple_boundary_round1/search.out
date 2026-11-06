@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/find_cmaple_boundary.py", line 73, in <module>
+    for n, ok, cols, sec, err in ex.map(probe, pts):
+OSError: [Errno 122] Disk quota exceeded

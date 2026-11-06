@@ -1,0 +1,10 @@
+N=695 cols=160624 success=True 4374s peak=884GB 
+N=722 cols=168960 success=True 4287s peak=930GB 
+N=735 cols=171550 success=True 5910s peak=944GB 
+N=742 cols=173032 success=True 4095s peak=952GB 
+N=745 cols=173234 success=True 5446s peak=953GB 
+N=747 cols=173405 success=True 5912s peak=954GB 
+N=748 cols=173928 success=True 4016s peak=957GB 
+largest success: 748 loci (173928 columns)
+smallest failure above it: 749 loci
+

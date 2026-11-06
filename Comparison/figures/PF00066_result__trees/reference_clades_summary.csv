@@ -1,0 +1,5 @@
+method,shared_splits,reference_splits,recall,precision
+CMAPLE,26,101,0.2574,0.2600
+Phyloformer,27,101,0.2673,0.2673
+MSA-T embedding,30,101,0.2970,0.2970
+MSA-T attention,23,101,0.2277,0.2277

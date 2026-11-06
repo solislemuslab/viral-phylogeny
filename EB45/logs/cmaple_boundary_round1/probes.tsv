@@ -1,0 +1,3 @@
+n_loci	columns	success	seconds	error
+3	964	False	16	ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file
+7	1657	False	57	

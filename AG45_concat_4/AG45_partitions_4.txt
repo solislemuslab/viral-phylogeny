@@ -1,0 +1,4 @@
+OG1 = 1-245 # AG_PF00117_2.fasta
+OG2 = 246-310 # AG_PF00333_1.fasta
+OG3 = 311-455 # AG_PF01000_1.fasta
+OG4 = 456-787 # AG_PF01180_1.fasta

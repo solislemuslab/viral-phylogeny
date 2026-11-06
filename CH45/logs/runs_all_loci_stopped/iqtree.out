@@ -1,0 +1,93 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/home/jgao/.conda/envs/iq_tree/bin/iqtree2 -s CH45_supermatrix.fasta -m MFP -T AUTO --threads-max 28 -B 1000 -alrt 1000 --prefix CH45_supermatrix
+Seed:    106876 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 22 20:24:02 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file CH45_supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.571632 secs using 85.19% CPU
+Alignment most likely contains protein sequences
+WARNING: 488 sites contain only gaps or ambiguous characters.
+Alignment has 60 sequences with 733471 columns, 557753 distinct patterns
+344367 parsimony-informative, 127982 singleton sites, 261122 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0925895 secs using 3581% CPU
+   1  ALLSI   26.92%    failed      0.00%
+   2  AMPCI   29.26%    failed      0.00%
+   3  AMPPE   27.60%    failed      0.00%
+   4  ANAPP   30.17%    failed      0.00%
+   5  ANATE   26.10%    failed      0.00%
+   6  AOTNA   42.31%    failed      0.00%
+   7  ASTMX   26.22%    failed      0.00%
+   8  BALAS   43.49%    failed      0.00%
+   9  CALJA   42.76%    failed      0.00%
+  10  CAPHI   31.87%    failed      0.00%
+  11  CAVPO   28.88%    failed      0.00%
+  12  CERAT   43.61%    failed      0.00%
+  13  CHICK   30.31%    failed      0.00%
+  14  CHIPU   27.24%    failed      0.00%
+  15  CYNSE   26.26%    failed      0.00%
+  16  CYPVA   26.76%    failed      0.00%
+  17  DANRE   25.16%    failed      0.00%
+  18  DELLE   56.47%    failed      0.00%
+  19  DIPOR   30.45%    failed      0.00%
+  20  ENHLU   38.97%    failed      0.00%
+  21  ERIEU   28.06%    failed      0.00%
+  22  ESOLU   24.85%    failed      0.00%
+  23  FELCA   38.32%    failed      0.00%
+  24  HETGA   31.97%    failed      0.00%
+  25  HORSE   34.91%    failed      0.00%
+  26  HUMAN   46.78%    failed      0.00%
+  27  ICTPU   24.87%    failed      0.00%
+  28  ICTTR   31.85%    failed      0.00%
+  29  KRYMA   25.94%    failed      0.00%
+  30  LEPOC   26.44%    failed      0.00%
+  31  LEPWE   42.65%    failed      3.27%
+  32  LIPVE   48.59%    failed      0.00%
+  33  LOXAF   28.72%    failed      0.00%
+  34  MESAU   28.70%    failed      0.02%
+  35  MOLML   26.42%    failed      0.00%
+  36  MONDO   26.34%    failed      0.00%
+  37  MOUSE   28.36%    failed      0.01%
+  38  MYOLU   29.12%    failed      0.00%
+  39  NOMLE   44.39%    failed      0.00%
+  40  ODORO   43.52%    failed      0.00%
+  41  ORYME   26.26%    failed      0.00%
+  42  OTOGA   30.61%    failed      0.00%
+  43  PATFA   29.86%    failed      0.00%
+  44  PHYMC   42.94%    failed      0.00%
+  45  PIG     33.09%    failed      0.00%
+  46  PROCO   35.05%    failed      0.00%
+  47  PTEAL   33.45%    failed      0.01%
+  48  PYGNA   26.58%    failed      0.00%
+  49  RABIT   29.78%    failed      0.00%
+  50  SALSA   25.34%    failed      0.00%
+  51  SERDU   26.90%    failed      0.00%
+  52  TAEGU   27.75%    failed      0.00%
+  53  TAKRU   25.40%    failed      0.00%
+  54  TARSY   32.25%    failed      0.39%
+  55  TRIMA   30.05%    failed      0.00%
+  56  TURTR   51.10%    failed      0.00%
+  57  URSAR   43.20%    failed      0.00%
+  58  VULVU   39.49%    failed      0.00%
+  59  XENLA   26.24%    failed      0.00%
+  60  XIPMA   25.83%    failed      0.00%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL   32.71%  60 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000136338 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 131.147 seconds
+Measuring multi-threading efficiency up to 28 CPU cores
+2 trees examined
+Threads: 1 / Time: 404.586 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -21192811
+Threads: 2 / Time: 233.856 sec / Speedup: 1.730 / Efficiency: 87% / LogL: -21192811
+Threads: 3 / Time: 153.846 sec / Speedup: 2.630 / Efficiency: 88% / LogL: -21192811
+Threads: 4 / Time: 121.696 sec / Speedup: 3.325 / Efficiency: 83% / LogL: -21192811
+Threads: 5 / Time: 91.438 sec / Speedup: 4.425 / Efficiency: 88% / LogL: -21192811
+Threads: 6 / Time: 81.317 sec / Speedup: 4.975 / Efficiency: 83% / LogL: -21192811
+Threads: 7 / Time: 67.468 sec / Speedup: 5.997 / Efficiency: 86% / LogL: -21192811

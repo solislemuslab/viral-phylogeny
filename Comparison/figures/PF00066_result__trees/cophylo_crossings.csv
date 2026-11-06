@@ -1,0 +1,11 @@
+tree_a,tree_b,crossings
+IQ-TREE,CMAPLE,641
+IQ-TREE,Phyloformer,513
+IQ-TREE,MSA-T embedding,352
+IQ-TREE,MSA-T attention,689
+CMAPLE,Phyloformer,320
+CMAPLE,MSA-T embedding,359
+CMAPLE,MSA-T attention,1005
+Phyloformer,MSA-T embedding,718
+Phyloformer,MSA-T attention,1188
+MSA-T embedding,MSA-T attention,1128

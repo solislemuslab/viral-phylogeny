@@ -1,0 +1,25 @@
+2026-11-05 15:11 N=650 starting; other users hold 247 GB  [never ran: waited for the lock held by NeuralNJ covid_200 and was stopped at 15:47]
+Thu Nov  5 15:48:09 CST 2026 waiting for NeuralNJ (chain_200_then_300.sh, run_covid_locked.sh) to finish
+Thu Nov  5 15:51:18 CST 2026 waiting for NeuralNJ covid_300 to finish (or for CH45/logs/phyloformer_boundary/GO)
+Thu Nov  5 18:13:19 CST 2026 GO file found; starting the search
+2026-11-05 18:14 N=650 starting; other users hold 235 GB
+N=650 cols=150721 success=False 236s peak=639GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+2026-11-05 18:18 N=620 starting; other users hold 235 GB
+N=620 cols=143383 success=False 228s peak=608GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+2026-11-05 18:22 N=610 starting; other users hold 235 GB
+N=610 cols=141327 success=False 225s peak=599GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+largest success: 600 loci (139349 columns)
+smallest failure above it: 610 loci
+
+Thu Nov  5 20:14:20 CST 2026 exact search 600-610 step 1
+2026-11-05 20:15 N=605 starting; other users hold 235 GB
+N=605 cols=140259 success=False 221s peak=594GB RuntimeError: [enforce fail at alloc_cpu.cpp:75] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allo
+2026-11-05 20:19 N=602 starting; other users hold 235 GB
+N=602 cols=139769 success=True 5419s peak=769GB 
+2026-11-05 21:49 N=603 starting; other users hold 221 GB
+N=603 cols=140009 success=True 5297s peak=771GB 
+2026-11-05 23:17 N=604 starting; other users hold 220 GB
+N=604 cols=140147 success=True 5477s peak=771GB 
+largest success: 604 loci (140147 columns)
+smallest failure above it: 605 loci
+

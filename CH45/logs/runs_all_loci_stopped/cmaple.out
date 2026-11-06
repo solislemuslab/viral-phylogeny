@@ -1,0 +1,10 @@
+CMAPLE version 1.1.0 for Linux 64-bit built Nov  1 2024
+Developed by Nhan Ly-Trong, Chris Bielow, Nicola De Maio, Bui Quang Minh.
+
+Command: ./cmaple-1.1.0-Linux-intel/bin/cmaple-aa -aln ../CH45_concat/CH45_supermatrix.fasta --prefix CMAPLE_results/CH45_supermatrix -seed 697640
+Seed:    697640 
+
+Reading an alignment
+WARNING: Look like the input sequences are too divergent from each other, which makes CMAPLE very slow. We highly recommend users to use other methods (e.g., IQ-TREE) to analyse this alignment!
+Auto select LG model for AA data
+Performing placement

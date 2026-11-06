@@ -1,0 +1,20 @@
+CMAPLE version 1.1.0 for Linux 64-bit built Nov  1 2024
+Developed by Nhan Ly-Trong, Chris Bielow, Nicola De Maio, Bui Quang Minh.
+
+Command: /mnt/dv/wid/projects4/SolisLemus-viral-phylogeny/DeepLearningClaudia/CMAPLE/cmaple-1.1.0-Linux-intel/bin/cmaple-aa -aln EB45_supermatrix_24.fasta --prefix EB45_supermatrix_24 -seed 697640
+Seed:    697640 
+
+Reading an alignment
+WARNING: Look like the input sequences are too divergent from each other, which makes CMAPLE very slow. We highly recommend users to use other methods (e.g., IQ-TREE) to analyse this alignment!
+Auto select LG model for AA data
+Performing placement
+60 sequences have been added to the tree.
+Assessing root position
+Nodes visited looking for the best rooting: 116
+Better root found.
+Rerooting the tree.
+Re-try seeking a better root
+Nodes visited looking for the best rooting: 116
+Applying a(n) normal tree search
+Optimizing branch lengths
+ERROR: Likelihood cost is very heavy, this might mean that the reference used is not the same used to generate the input MAPLE file

@@ -1,0 +1,237 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/ws/home/jgao/.conda/envs/iq_tree/bin/iqtree -s COVID_data_fasta/covid_136_aligned.fasta -m GTR+G -T 8 --seed 603 --prefix IQTREE_results/covid_136_aligned.fasta
+Seed:    603 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 23 00:52:13 2026
+Kernel:  AVX+FMA - 8 threads (72 CPU cores detected)
+
+Reading alignment file COVID_data_fasta/covid_136_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.0448765 secs using 71% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 24 sites contain only gaps or ambiguous characters.
+Alignment has 136 sequences with 29994 columns, 1603 distinct patterns
+2328 parsimony-informative, 3660 singleton sites, 24006 constant sites
+                                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000523912 secs using 255% CPU
+   1  hCoV-19/Belgium/KA-03042/2020|EPI_ISL_417424|2020-03-04                0.59%    passed     99.81%
+   2  hCoV-19/Scotland/EDB1647/2020|EPI_ISL_433104|2020-04-14                0.71%    passed     99.95%
+   3  hCoV-19/England/NOTT-10E12C/2020|EPI_ISL_425501|2020-03-15             0.72%    passed     99.97%
+   4  hCoV-19/England/CAMB-74C8B/2020|EPI_ISL_425362|2020-03-17              0.72%    passed     99.96%
+   5  hCoV-19/Wales/PHWC-25F44/2020|EPI_ISL_422029|2020-03-25                0.44%    passed     99.96%
+   6  hCoV-19/Denmark/ALAB-HH87/2020|EPI_ISL_429327|2020-03-15               0.71%    passed     99.97%
+   7  hCoV-19/England/201380028/2020|EPI_ISL_421796|2020-03-27               0.55%    passed     99.95%
+   8  hCoV-19/Scotland/EDB735/2020|EPI_ISL_433234|2020-04-02                 0.71%    passed     99.97%
+   9  hCoV-19/England/SHEF-C092F/2020|EPI_ISL_420176|2020-03-20              1.87%    passed    100.00%
+  10  hCoV-19/Luxembourg/LNS3770609/2020|EPI_ISL_421747|2020-03-17           0.39%    passed    100.00%
+  11  hCoV-19/Scotland/CVR1410/2020|EPI_ISL_433574|2020-04-01                1.14%    passed     99.27%
+  12  hCoV-19/Turkey/HSGM-5770/2020|EPI_ISL_428718|2020-03-19                1.19%    passed     98.07%
+  13  hCoV-19/Iceland/477/2020|EPI_ISL_424500|2020-03-20                     0.58%    passed     99.89%
+  14  hCoV-19/England/20122088102/2020|EPI_ISL_418678|2020-03-16             0.80%    passed     99.90%
+  15  hCoV-19/England/20142062204/2020|EPI_ISL_420773|2020-03-30             1.04%    passed    100.00%
+  16  hCoV-19/England/NOTT-10E256/2020|EPI_ISL_425517|2020-03-20             0.72%    passed     99.96%
+  17  hCoV-19/Belgium/GS-030549/2020|EPI_ISL_418798|2020-03-05               0.71%    passed     99.91%
+  18  hCoV-19/France/ARA-12630/2020|EPI_ISL_420613|2020-03-23                0.57%    passed     99.94%
+  19  hCoV-19/England/200981386/2020|EPI_ISL_414010|2020-02-26               0.60%    passed     99.74%
+  20  hCoV-19/Netherlands/NoordHolland_2/2020|EPI_ISL_414549|2020-03-03      0.73%    passed     99.99%
+  21  hCoV-19/Russia/StPetersburg-RII4988S/2020|EPI_ISL_430083|2020-04-10    0.42%    passed     99.98%
+  22  hCoV-19/Netherlands/NA_137/2020|EPI_ISL_422681|2020-03-19              0.74%    passed     99.99%
+  23  hCoV-19/England/20124034702/2020|EPI_ISL_418711|2020-03-16             0.49%    passed     99.95%
+  24  hCoV-19/England/CAMB-7FC26/2020|EPI_ISL_433493|2020-04-16              0.71%    passed     99.98%
+  25  hCoV-19/Italy/ABR-IZSGC-TE6195/2020|EPI_ISL_420569|2020-03-23          0.36%    passed     99.78%
+  26  hCoV-19/Wales/PHWC-29B79/2020|EPI_ISL_432253|2020-04-04                0.51%    passed     99.89%
+  27  hCoV-19/Denmark/ALAB-SSI509/2020|EPI_ISL_429577|2020-03-25             0.71%    passed     99.92%
+  28  hCoV-19/England/201360202/2020|EPI_ISL_423239|2020-03-24               1.36%    passed     99.82%
+  29  hCoV-19/Wales/PHWC-264BD/2020|EPI_ISL_422042|2020-03-28                0.49%    passed     99.94%
+  30  hCoV-19/France/IDF-0515/2020|EPI_ISL_408430|2020-01-29                 0.44%    passed     99.97%
+  31  hCoV-19/France/OCC-13/2020|EPI_ISL_434628|2020-04-07                   0.30%    passed     99.63%
+  32  hCoV-19/France/IDF-3324/2020|EPI_ISL_421512|2020-03-23                 0.48%    passed     99.95%
+  33  hCoV-19/France/BRE-2337/2020|EPI_ISL_416506|2020-03-03                 0.48%    passed     99.94%
+  34  hCoV-19/England/CAMB-76EDE/2020|EPI_ISL_425437|2020-03-31              0.71%    passed     99.95%
+  35  hCoV-19/Iceland/401/2020|EPI_ISL_424425|2020-03-19                     0.53%    passed     99.93%
+  36  hCoV-19/England/20134020004/2020|EPI_ISL_423108|2020-03-23             1.34%    passed     99.75%
+  37  hCoV-19/Scotland/EDB1582/2020|EPI_ISL_433087|2020-04-13                0.71%    passed     99.95%
+  38  hCoV-19/Spain/MD-H12-30/2020|EPI_ISL_428693|2020-03-12                 0.44%    passed     99.92%
+  39  hCoV-19/Iceland/208/2020|EPI_ISL_417766|2020-03-16                     0.53%    passed     99.94%
+  40  hCoV-19/Scotland/CVR60/2020|EPI_ISL_425789|2020-03-12                  1.04%    passed     99.89%
+  41  hCoV-19/England/SHEF-C0549/2020|EPI_ISL_420249|2020-03-26              0.71%    passed     99.95%
+  42  hCoV-19/France/IDF-2278/2020|EPI_ISL_416499|2020-03-11                 0.43%    passed     99.97%
+  43  hCoV-19/Wales/PHWC-2715B/2020|EPI_ISL_422124|2020-03-29                0.65%    passed     99.87%
+  44  hCoV-19/Iceland/467/2020|EPI_ISL_424490|2020-03-20                     1.11%    passed     99.87%
+  45  hCoV-19/Switzerland/GE-HUG-6414/2020|EPI_ISL_429217|2020-04-06         0.33%    passed     99.80%
+  46  hCoV-19/Netherlands/NoordBrabant_70/2020|EPI_ISL_422866|2020-03-11     0.73%    passed     99.93%
+  47  hCoV-19/Belgium/ULG-6670/2020|EPI_ISL_417018|2020-03-14                0.71%    passed     99.91%
+  48  hCoV-19/Luxembourg/LNS9322962/2020|EPI_ISL_428961|2020-04-03           0.42%    passed     99.97%
+  49  hCoV-19/England/CAMB-737D6/2020|EPI_ISL_425240|2020-03-31              0.71%    passed     99.86%
+  50  hCoV-19/Switzerland/BS-HUG-0914/2020|EPI_ISL_415701|2020-03-02         0.32%    passed     99.71%
+  51  hCoV-19/Finland/13M33/2020|EPI_ISL_418390|2020-03-13                   0.73%    passed     99.97%
+  52  hCoV-19/England/20128095504/2020|EPI_ISL_423970|2020-03-20             1.40%    passed     99.57%
+  53  hCoV-19/Belgium/NJC-0324126/2020|EPI_ISL_420383|2020-03-24             0.71%    passed     99.96%
+  54  hCoV-19/England/CAMB-7AF22/2020|EPI_ISL_433895|2020-04-10              0.71%    passed     99.92%
+  55  hCoV-19/England/20140071704/2020|EPI_ISL_423415|2020-03-29             0.57%    passed     99.97%
+  56  hCoV-19/Wales/PHWC-2B263/2020|EPI_ISL_432358|2020-04-08                1.08%    passed     99.93%
+  57  hCoV-19/Latvia/09/2020|EPI_ISL_426289|2020-03-30                       0.30%    passed     99.79%
+  58  hCoV-19/Belgium/VPE-030650/2020|EPI_ISL_418805|2020-03-06              0.71%    passed     99.98%
+  59  hCoV-19/Iceland/83/2020|EPI_ISL_417868|2020-03-09                      0.48%    passed     99.98%
+  60  hCoV-19/England/20134067904/2020|EPI_ISL_423156|2020-03-24             0.65%    passed     99.95%
+  61  hCoV-19/Belgium/ULG-10032/2020|EPI_ISL_421206|2020-03-31               0.71%    passed     99.99%
+  62  hCoV-19/England/NOTT-10DF8D/2020|EPI_ISL_432900|2020-03-02             1.26%    passed     98.88%
+  63  hCoV-19/Russia/StPetersburg-RII5017V/2020|EPI_ISL_430084|2020-04-09    0.30%    passed     99.66%
+  64  hCoV-19/Sweden/20-08172/2020|EPI_ISL_430855|2020-03-12                 0.30%    passed     99.74%
+  65  hCoV-19/Scotland/EDB1617/2020|EPI_ISL_433091|2020-04-14                0.86%    passed     99.93%
+  66  hCoV-19/Iceland/583/2020|EPI_ISL_424603|2020-03-27                     0.53%    passed     99.97%
+  67  hCoV-19/Switzerland/TI-HUG-2045/2020|EPI_ISL_415703|2020-03-01         0.33%    passed     99.76%
+  68  hCoV-19/Belgium/ULG-10004/2020|EPI_ISL_421184|2020-03-31               0.72%    passed     99.91%
+  69  hCoV-19/Scotland/EDB1510/2020|EPI_ISL_433463|2020-04-12                0.71%    passed     99.93%
+  70  hCoV-19/USA/DC-HP00022/2020|EPI_ISL_434691|2020-03-22                  0.72%    passed     99.97%
+  71  hCoV-19/USA/NY-NYUMC118/2020|EPI_ISL_421730|2020-03-18                 0.31%    passed     99.77%
+  72  hCoV-19/USA/CT-Yale-112/2020|EPI_ISL_435708|2020-04-09                 1.69%    passed     99.97%
+  73  hCoV-19/USA/NY-PV08402/2020|EPI_ISL_421370|2020-03-16                  0.67%    passed     99.91%
+  74  hCoV-19/USA/WA-UW-1805/2020|EPI_ISL_424264|2020-03-22                  0.40%    passed     99.88%
+  75  hCoV-19/USA/WA-UW123/2020|EPI_ISL_416661|2020-03-12                    0.42%    passed     99.93%
+  76  hCoV-19/USA/WA-UW-4695/2020|EPI_ISL_429631|2020-04-06                  0.49%    passed     99.96%
+  77  hCoV-19/USA/WA-S353/2020|EPI_ISL_434113|2020-03-25                     0.43%    passed     99.98%
+  78  hCoV-19/USA/WA-UW-2119/2020|EPI_ISL_426091|2020-03-25                  0.44%    passed     99.96%
+  79  hCoV-19/USA/CA-CZB07/2020|EPI_ISL_417933|2020-03-18                    0.35%    passed     99.59%
+  80  hCoV-19/USA/WA-UW124/2020|EPI_ISL_416662|2020-03-12                    0.45%    passed     99.96%
+  81  hCoV-19/USA/AZ-TGEN-TG271870/2020|EPI_ISL_426606|2020-03-24            0.37%    passed     99.99%
+  82  hCoV-19/USA/VA-DCLS-0114/2020|EPI_ISL_434605|2020-04-09                1.13%    passed     99.60%
+  83  hCoV-19/USA/MD-HP00041/2020|EPI_ISL_434638|2020-03-19                  0.71%    passed     99.96%
+  84  hCoV-19/USA/TX-HMH0403/2020|EPI_ISL_434990|2020-03-31                  0.71%    passed     99.94%
+  85  hCoV-19/USA/NY-NYUMC411/2020|EPI_ISL_435478|2020-03-30                 0.31%    passed     99.81%
+  86  hCoV-19/USA/WA-UW359/2020|EPI_ISL_418926|2020-03-14                    0.46%    passed     99.96%
+  87  hCoV-19/USA/NY-WCMP10A02P/2020|EPI_ISL_427553|2020-03-15               0.42%    passed     99.95%
+  88  hCoV-19/USA/CA-CZB076/2020|EPI_ISL_429057|2020-03-28                   1.10%    passed     99.95%
+  89  hCoV-19/USA/NY-Wadsworth-11190-01/2020|EPI_ISL_426324|2020-03-06       1.06%    passed     99.94%
+  90  hCoV-19/USA/WA-UW120/2020|EPI_ISL_416658|2020-03-11                    0.34%    passed     99.53%
+  91  hCoV-19/USA/WI-GMF-00986/2020|EPI_ISL_426159|2020-04-06                0.50%    passed     99.93%
+  92  hCoV-19/USA/NY-NYUMC130/2020|EPI_ISL_424937|2020-04-01                 0.31%    passed     99.77%
+  93  hCoV-19/USA/WA-UW-5205/2020|EPI_ISL_430900|2020-04-02                  0.54%    passed     99.90%
+  94  hCoV-19/USA/WA-UW-3984/2020|EPI_ISL_427225|2020-03-29                  0.61%    passed     99.41%
+  95  hCoV-19/USA/WI-GMF-01551/2020|EPI_ISL_435398|2020-04-22                0.53%    passed     99.88%
+  96  hCoV-19/USA/WA-UW-3941/2020|EPI_ISL_427215|2020-03-27                  0.34%    passed     98.25%
+  97  hCoV-19/USA/VA-DCLS-0039/2020|EPI_ISL_420021|2020-03-22                0.34%    passed     99.80%
+  98  hCoV-19/USA/WA-UW270/2020|EPI_ISL_418055|2020-03-14                    1.32%    passed     99.77%
+  99  hCoV-19/USA/NY-WCMP11H06P/2020|EPI_ISL_427598|2020-03-16               0.41%    passed     99.97%
+ 100  hCoV-19/USA/WA-S106/2020|EPI_ISL_417159|2020-02-29                     0.42%    passed     99.98%
+ 101  hCoV-19/USA/WA-UW-1705/2020|EPI_ISL_424226|2020-03-21                  0.87%    passed     99.65%
+ 102  hCoV-19/USA/CT-UW-6271/2020|EPI_ISL_430962|2020-04-01                  0.39%    passed     99.99%
+ 103  hCoV-19/USA/WA-UW19/2020|EPI_ISL_414367|2020-03-05                     0.98%    passed     99.91%
+ 104  hCoV-19/USA/WA-S559/2020|EPI_ISL_434319|2020-03-27                     0.44%    passed     99.96%
+ 105  hCoV-19/USA/NY-WCMP12C04P/2020|EPI_ISL_427601|2020-03-16               0.44%    passed     99.95%
+ 106  hCoV-19/USA/VA-DCLS-0048/2020|EPI_ISL_426456|2020-03-30                0.56%    passed     99.89%
+ 107  hCoV-19/USA/WA-UW195/2020|EPI_ISL_417344|2020-03-13                    0.35%    passed     99.98%
+ 108  hCoV-19/USA/WA-UW173/2020|EPI_ISL_416711|2020-03-15                    0.43%    passed     99.97%
+ 109  hCoV-19/USA/WA-UW-4227/2020|EPI_ISL_427250|2020-03-31                  0.32%    passed     99.82%
+ 110  hCoV-19/USA/KY-9A10/2020|EPI_ISL_468064|2020-03-18                     0.35%    passed     99.99%
+ 111  hCoV-19/USA/WA-UW-6173/2020|EPI_ISL_430936|2020-04-01                  0.37%    passed     99.99%
+ 112  hCoV-19/Australia/VIC170/2020|EPI_ISL_419867|2020-03-18                0.49%    passed     99.85%
+ 113  hCoV-19/Australia/VIC656/2020|EPI_ISL_426952|2020-03-28                0.48%    passed     99.98%
+ 114  hCoV-19/Australia/VIC50/2020|EPI_ISL_419766|2020-03-12                 0.42%    passed     99.87%
+ 115  hCoV-19/Australia/NSW150/2020|EPI_ISL_427796|2020-03-19                1.95%    passed     99.11%
+ 116  hCoV-19/Australia/VIC270/2020|EPI_ISL_419963|2020-03-22                0.45%    passed     99.85%
+ 117  hCoV-19/Australia/VIC746/2020|EPI_ISL_427024|2020-03-29                1.08%    passed     99.93%
+ 118  hCoV-19/Australia/NSW133/2020|EPI_ISL_427791|2020-03-26                1.95%    passed     98.99%
+ 119  hCoV-19/Australia/VIC1328/2020|EPI_ISL_430695|2020-04-12               0.65%    passed     99.93%
+ 120  hCoV-19/Kazakhstan/NCB-3/2020|EPI_ISL_435047|2020-03-25                0.30%    passed     99.67%
+ 121  hCoV-19/United_Arab_Emirates/L1076/2020|EPI_ISL_435128|2020-03-15      0.30%    passed     99.83%
+ 122  hCoV-19/Singapore/87/2020|EPI_ISL_435692|2020-04-21                    0.52%    passed     99.96%
+ 123  hCoV-19/Singapore/47/2020|EPI_ISL_428826|2020-03-17                    0.36%    passed     99.97%
+ 124  hCoV-19/Thailand/Bangkok-0039/2020|EPI_ISL_429175|2020-03-28           0.63%    passed     99.97%
+ 125  hCoV-19/Shanghai/SH0045/2020|EPI_ISL_416354|2020-02-04                 1.22%    passed     99.97%
+ 126  hCoV-19/Beijing/BJ709/2020|EPI_ISL_430729|2020-02-07                   1.77%    passed    100.00%
+ 127  hCoV-19/Weifang/WF0016/2020|EPI_ISL_413746|2020-02                     0.47%    passed     99.95%
+ 128  hCoV-19/Japan/KY-V-029/2020|EPI_ISL_408669|2020-01-29                  0.39%    passed    100.00%
+ 129  hCoV-19/Nanchang/JX174/2020|EPI_ISL_421238|2020-01-29                  0.42%    passed     99.95%
+ 130  hCoV-19/Taiwan/NTU09/2020|EPI_ISL_422412|2020-03-14                    0.42%    passed     99.97%
+ 131  hCoV-19/Jordan/SR-033/2020|EPI_ISL_429993|2020-03-16                   1.95%    passed     99.19%
+ 132  hCoV-19/Brazil/SP-14/2020|EPI_ISL_416036|2020-03-05                    0.48%    passed     99.98%
+ 133  BetaCoV/bat/Yunnan/RaTG13/2013|EPI_ISL_402131|2013-07-24               0.46%    passed     98.84%
+ 134  BetaCoV/pangolin/Guangxi/P3B/2017|EPI_ISL_410543|2017                  8.78%    passed      8.92%
+ 135  BetaCoV/pangolin/Guangdong/P2S/2019|EPI_ISL_410544|2019               28.39%    failed      4.44%
+ 136  BetaCoV/pangolin/Guangdong/1/2019|EPI_ISL_410721|2019                  0.56%    passed     51.79%
+****  TOTAL                                                                  0.93%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+Creating fast initial parsimony tree by random order stepwise addition...
+0.482 seconds, parsimony score: 6888 (based on 5988 sites)
+
+NOTE: 28 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -76150.611
+2. Current log-likelihood: -74157.216
+3. Current log-likelihood: -74104.315
+4. Current log-likelihood: -74097.355
+5. Current log-likelihood: -74095.958
+6. Current log-likelihood: -74095.771
+Optimal log-likelihood: -74095.737
+Rate parameters:  A-C: 1.17270  A-G: 4.55056  A-T: 2.30333  C-G: 0.50680  C-T: 9.60997  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Gamma shape alpha: 0.319
+Parameters optimization took 6 rounds (1.831 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0180558 secs using 802.7% CPU
+Computing ML distances took 0.020394 sec (of wall-clock time) 0.149462 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000498776 secs using 98.64% CPU
+Computing RapidNJ tree took 0.001819 sec (of wall-clock time) 0.001788 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -74173.049
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.092 second
+Computing log-likelihood of 98 initial trees ... 2.327 seconds
+Current best score: -74095.737
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -74093.700
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -74090.544
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -74090.367
+Iteration 10 / LogL: -74091.704 / Time: 0h:0m:15s
+Iteration 20 / LogL: -74093.439 / Time: 0h:0m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -74090.367 / CPU time: 17.992
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -74258.355 / Time: 0h:0m:23s (0h:1m:1s left)
+Iteration 40 / LogL: -74096.602 / Time: 0h:0m:27s (0h:0m:46s left)
+Iteration 50 / LogL: -74099.665 / Time: 0h:0m:30s (0h:0m:34s left)
+Iteration 60 / LogL: -74091.211 / Time: 0h:0m:34s (0h:0m:27s left)
+Iteration 70 / LogL: -74093.617 / Time: 0h:0m:38s (0h:0m:20s left)
+Iteration 80 / LogL: -74095.805 / Time: 0h:0m:41s (0h:0m:14s left)
+Iteration 90 / LogL: -74093.179 / Time: 0h:0m:44s (0h:0m:8s left)
+Iteration 100 / LogL: -74093.395 / Time: 0h:0m:47s (0h:0m:3s left)
+TREE SEARCH COMPLETED AFTER 108 ITERATIONS / Time: 0h:0m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -74090.367
+Optimal log-likelihood: -74090.367
+Rate parameters:  A-C: 1.16999  A-G: 4.54401  A-T: 2.30134  C-G: 0.50408  C-T: 9.63092  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Gamma shape alpha: 0.318
+Parameters optimization took 1 rounds (0.039 sec)
+BEST SCORE FOUND : -74090.367
+Total tree length: 0.335
+
+Total number of iterations: 108
+CPU time used for tree search: 365.655 sec (0h:6m:5s)
+Wall-clock time used for tree search: 46.996 sec (0h:0m:46s)
+Total CPU time used: 385.179 sec (0h:6m:25s)
+Total wall-clock time used: 49.567 sec (0h:0m:49s)
+
+Analysis results written to: 
+  IQ-TREE report:                IQTREE_results/covid_136_aligned.fasta.iqtree
+  Maximum-likelihood tree:       IQTREE_results/covid_136_aligned.fasta.treefile
+  Likelihood distances:          IQTREE_results/covid_136_aligned.fasta.mldist
+  Screen log file:               IQTREE_results/covid_136_aligned.fasta.log
+
+Date and Time: Fri Oct 23 00:53:02 2026

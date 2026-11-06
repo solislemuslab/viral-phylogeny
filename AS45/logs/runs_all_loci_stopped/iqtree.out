@@ -1,0 +1,127 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Dec 11 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    solislemus-001.discovery.wisc.edu (AVX512, FMA3, 1007 GB RAM)
+Command: /mnt/home/jgao/.conda/envs/iq_tree/bin/iqtree2 -s AS45_supermatrix.fasta -m MFP -T AUTO --threads-max 28 -B 1000 -alrt 1000 --prefix AS45_supermatrix
+Seed:    112285 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct 22 19:52:11 2026
+Kernel:  AVX+FMA - auto-detect threads (72 CPU cores detected)
+
+Reading alignment file AS45_supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.586627 secs using 82.66% CPU
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 60 sequences with 727784 columns, 580602 distinct patterns
+421841 parsimony-informative, 102009 singleton sites, 203934 constant sites
+       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0749385 secs using 2446% CPU
+   1  ACRC1   34.97%    failed      0.00%
+   2  AJECG   37.27%    failed      0.00%
+   3  ALTAL   44.03%    failed      0.00%
+   4  AMORE   35.40%    failed      0.00%
+   5  ARTGP   47.52%    failed      0.00%
+   6  ARTOA   34.08%    failed      0.00%
+   7  ASPWE   33.69%    failed      0.00%
+   8  AURPU   35.96%    failed      0.00%
+   9  BEAB2   35.97%    failed      0.00%
+  10  BLAGS   38.43%    failed      0.00%
+  11  BOTF1   40.54%    failed      0.00%
+  12  BYSSP   34.06%    failed      0.00%
+  13  CERBT   37.12%    failed      0.00%
+  14  CHATD   34.61%    failed      0.00%
+  15  COCIT   35.33%    failed      0.00%
+  16  COCSN   47.30%    failed      0.00%
+  17  COLGM   35.20%    failed      0.00%
+  18  CONA1   35.05%    failed      0.00%
+  19  CORCC   34.74%    failed      0.00%
+  20  DIDRA   40.08%    failed      0.00%
+  21  DOTSN   33.79%    failed      0.00%
+  22  EPING   41.34%    failed      0.00%
+  23  EXODN   32.79%    failed      0.00%
+  24  FUSOX   35.33%    failed      0.00%
+  25  GLAL2   37.26%    failed      0.00%
+  26  HORWE   33.74%    failed      0.00%
+  27  LEPMJ   38.21%    failed      0.00%
+  28  MACPH   36.60%    failed      0.00%
+  29  MAGO7   32.83%    failed      0.00%
+  30  MARBU   36.61%    failed      0.00%
+  31  METAN   41.43%    failed      0.00%
+  32  METCM   41.95%    failed      0.00%
+  33  MYCTT   34.17%    failed      0.00%
+  34  NEUCR   46.22%    failed      0.00%
+  35  OPHP1   33.36%    failed      0.00%
+  36  PARBD   35.26%    failed      0.00%
+  37  PENO1   34.14%    failed      0.00%
+  38  PESFW   33.62%    failed      0.00%
+  39  PHANO   37.21%    failed      0.00%
+  40  PODAN   35.08%    failed      0.00%
+  41  PSED2   35.09%    failed      0.00%
+  42  PSEFD   37.55%    failed      0.00%
+  43  PYROM   34.45%    failed      0.00%
+  44  PYRTT   46.29%    failed      0.00%
+  45  ROSNE   34.08%    failed      0.00%
+  46  SCLBF   42.12%    failed      0.00%
+  47  SCYLI   36.54%    failed      0.00%
+  48  SETT2   46.18%    failed      0.00%
+  49  SORMK   46.25%    failed      0.00%
+  50  SPHMS   38.43%    failed      0.00%
+  51  SPOS1   32.88%    failed      0.00%
+  52  STAC4   35.55%    failed      0.00%
+  53  TALSN   33.26%    failed      0.00%
+  54  TRIHA   34.14%    failed      0.00%
+  55  TRIIM   45.84%    failed      0.00%
+  56  TUBBO   35.33%    failed      0.00%
+  57  VENIN   34.81%    failed      0.00%
+  58  VERDA   33.70%    failed      0.00%
+  59  XYLHT   32.30%    failed      0.00%
+  60  ZYMTR   34.59%    failed      0.00%
+****  TOTAL   37.19%  60 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: minimal branch length is reduced to 0.000000137403 for long alignment
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 121.430 seconds
+Measuring multi-threading efficiency up to 28 CPU cores
+2 trees examined
+Threads: 1 / Time: 522.317 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -30742105
+Threads: 2 / Time: 291.926 sec / Speedup: 1.789 / Efficiency: 89% / LogL: -30742105
+Threads: 3 / Time: 145.103 sec / Speedup: 3.600 / Efficiency: 120% / LogL: -30742105
+Threads: 4 / Time: 102.064 sec / Speedup: 5.118 / Efficiency: 128% / LogL: -30742105
+Threads: 5 / Time: 82.462 sec / Speedup: 6.334 / Efficiency: 127% / LogL: -30742105
+Threads: 6 / Time: 70.129 sec / Speedup: 7.448 / Efficiency: 124% / LogL: -30742105
+Threads: 7 / Time: 61.139 sec / Speedup: 8.543 / Efficiency: 122% / LogL: -30742105
+Threads: 8 / Time: 53.373 sec / Speedup: 9.786 / Efficiency: 122% / LogL: -30742105
+Threads: 9 / Time: 48.422 sec / Speedup: 10.787 / Efficiency: 120% / LogL: -30742105
+Threads: 10 / Time: 43.828 sec / Speedup: 11.918 / Efficiency: 119% / LogL: -30742105
+Threads: 11 / Time: 40.807 sec / Speedup: 12.800 / Efficiency: 116% / LogL: -30742105
+Threads: 12 / Time: 37.533 sec / Speedup: 13.916 / Efficiency: 116% / LogL: -30742105
+Threads: 13 / Time: 36.949 sec / Speedup: 14.136 / Efficiency: 109% / LogL: -30742105
+Threads: 14 / Time: 38.437 sec / Speedup: 13.589 / Efficiency: 97% / LogL: -30742105
+Threads: 15 / Time: 34.799 sec / Speedup: 15.010 / Efficiency: 100% / LogL: -30742105
+Threads: 16 / Time: 29.965 sec / Speedup: 17.431 / Efficiency: 109% / LogL: -30742105
+Threads: 17 / Time: 29.791 sec / Speedup: 17.532 / Efficiency: 103% / LogL: -30742105
+Threads: 18 / Time: 26.814 sec / Speedup: 19.479 / Efficiency: 108% / LogL: -30742105
+Threads: 19 / Time: 25.442 sec / Speedup: 20.529 / Efficiency: 108% / LogL: -30742105
+Threads: 20 / Time: 24.839 sec / Speedup: 21.028 / Efficiency: 105% / LogL: -30742105
+Threads: 21 / Time: 24.729 sec / Speedup: 21.122 / Efficiency: 101% / LogL: -30742105
+Threads: 22 / Time: 33.348 sec / Speedup: 15.663 / Efficiency: 71% / LogL: -30742105
+BEST NUMBER OF THREADS: 19
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -24241520.883
+Optimal log-likelihood: -24241519.989
+Proportion of invariable sites: 0.177
+Gamma shape alpha: 0.860
+Parameters optimization took 1 rounds (43.264 sec)
+Time for fast ML tree search: 606.365 seconds
+
+NOTE: ModelFinder requires 56037 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 727784 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            26461640.768 117 52923515.537 52923515.575 52924860.775
+  2  LG+I          25501524.948 118 51003285.896 51003285.935 51004642.632
+  3  LG+G4         24279981.516 118 48560199.032 48560199.070 48561555.767
+AS45/run_as45.sh: line 8: 2319123 Terminated              $ENVS/iq_tree/bin/iqtree2 -s $S.fasta -m MFP -T AUTO --threads-max 28 -B 1000 -alrt 1000 --prefix $S
