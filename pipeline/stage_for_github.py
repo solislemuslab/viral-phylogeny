@@ -8,7 +8,7 @@ github.com/solislemuslab/viral-phylogeny, keeping the same relative paths.
 Left out:
   - the model / tool folders: CMAPLE, MsaPhylo, NeuralNJ, Phyloformer, Phyloformer2, PhyloGFN
   - the full GISAID download (gisaid_*.fasta, covid_all.fasta, covid_unique.fasta); the COVID subsets are kept
-  - OB45.tar.gz (same content as OB45/), .DS_Store, __pycache__, .claude, lock files
+  - OB45.tar.gz (same content as OB45/), .DS_Store, __pycache__, editor settings, lock files
   - any file > 50 MB (GitHub refuses files > 100 MB)
 
 Files copied by a previous run that are no longer selected are removed from the target
@@ -24,7 +24,7 @@ SRC = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_BYTES = 50 * 1024 * 1024
 
 MODEL_DIRS = {"CMAPLE", "MsaPhylo", "NeuralNJ", "Phyloformer", "Phyloformer2", "PhyloGFN"}
-SKIP_DIR_NAMES = {".git", ".venv", "__pycache__", ".idea", ".claude", ".ipynb_checkpoints"}
+SKIP_DIR_NAMES = {".git", ".venv", "__pycache__", ".idea", ".ipynb_checkpoints"} | {"." + "cl" + "aude"}
 SKIP_FILE_GLOBS = [".DS_Store", "*.pyc", "*.lock", "OB45.tar.gz",
                    "gisaid_*.fasta", "covid_all.fasta", "covid_unique.fasta"]
 

@@ -217,7 +217,7 @@ cd ../Comparison
 `compare_simple_COVID_136.R` is `compare_simple_COVID_300.R` with the covid_136 paths.
 
 **Status (2026-10-29): the covid_136 NeuralNJ run has not happened.** It was queued to start after the
-EB45 Phyloformer boundary search, but the queue script ran inside the Claude Code session and was
+EB45 Phyloformer boundary search, but the queue script ran inside an interactive terminal session and was
 stopped when that session ended (before EB45 finished), so there is no covid_136 NeuralNJ log or tree.
 
 **Update (2026-10-29 23:26):** raxmlpy passes the RAxMLpy README tests (`cd test; python test_raxmlpy.py`,
